@@ -1,0 +1,3513 @@
+Configuration------------------------------------
+{'num_epochs': 200, 'lr': 0.1, 'weight_decay': 0.0005, 'print_freq': 100, 'use_mixup': False, 'mixup_alpha': 2.0, 'num_classes': 10}
+=> Creating the model
+=> loss function, optimizer and scheduler
+=> Start Training, max epochs 200
+--------------------------------------------------
+epoch: 001, step: 000, train_loss : 0.34017
+epoch: 001, step: 100, train_loss : 0.26731
+epoch: 001, step: 200, train_loss : 0.22899
+epoch: 001, step: 300, train_loss : 0.18607
+epoch: 001, Accuracy : 57.54
+--------------------------------------------------
+epoch: 002, step: 000, train_loss : 0.18437
+epoch: 002, step: 100, train_loss : 0.19467
+epoch: 002, step: 200, train_loss : 0.13847
+epoch: 002, step: 300, train_loss : 0.11495
+epoch: 002, Accuracy : 55.61
+--------------------------------------------------
+epoch: 003, step: 000, train_loss : 0.14716
+epoch: 003, step: 100, train_loss : 0.16494
+epoch: 003, step: 200, train_loss : 0.11731
+epoch: 003, step: 300, train_loss : 0.15294
+epoch: 003, Accuracy : 74.18
+--------------------------------------------------
+epoch: 004, step: 000, train_loss : 0.12923
+epoch: 004, step: 100, train_loss : 0.12687
+epoch: 004, step: 200, train_loss : 0.10366
+epoch: 004, step: 300, train_loss : 0.11395
+epoch: 004, Accuracy : 71.54
+--------------------------------------------------
+epoch: 005, step: 000, train_loss : 0.08518
+epoch: 005, step: 100, train_loss : 0.07644
+epoch: 005, step: 200, train_loss : 0.11998
+epoch: 005, step: 300, train_loss : 0.08942
+epoch: 005, Accuracy : 76.56
+--------------------------------------------------
+epoch: 006, step: 000, train_loss : 0.09570
+epoch: 006, step: 100, train_loss : 0.09950
+epoch: 006, step: 200, train_loss : 0.12450
+epoch: 006, step: 300, train_loss : 0.08282
+epoch: 006, Accuracy : 73.44
+--------------------------------------------------
+epoch: 007, step: 000, train_loss : 0.09450
+epoch: 007, step: 100, train_loss : 0.07643
+epoch: 007, step: 200, train_loss : 0.09855
+epoch: 007, step: 300, train_loss : 0.06496
+epoch: 007, Accuracy : 80.08
+--------------------------------------------------
+epoch: 008, step: 000, train_loss : 0.07906
+epoch: 008, step: 100, train_loss : 0.08588
+epoch: 008, step: 200, train_loss : 0.09526
+epoch: 008, step: 300, train_loss : 0.06316
+epoch: 008, Accuracy : 75.48
+--------------------------------------------------
+epoch: 009, step: 000, train_loss : 0.07083
+epoch: 009, step: 100, train_loss : 0.06945
+epoch: 009, step: 200, train_loss : 0.09845
+epoch: 009, step: 300, train_loss : 0.08948
+epoch: 009, Accuracy : 77.98
+--------------------------------------------------
+epoch: 010, step: 000, train_loss : 0.08161
+epoch: 010, step: 100, train_loss : 0.07507
+epoch: 010, step: 200, train_loss : 0.06556
+epoch: 010, step: 300, train_loss : 0.08338
+epoch: 010, Accuracy : 77.46
+--------------------------------------------------
+epoch: 011, step: 000, train_loss : 0.06830
+epoch: 011, step: 100, train_loss : 0.06060
+epoch: 011, step: 200, train_loss : 0.06856
+epoch: 011, step: 300, train_loss : 0.07036
+epoch: 011, Accuracy : 81.37
+--------------------------------------------------
+epoch: 012, step: 000, train_loss : 0.07568
+epoch: 012, step: 100, train_loss : 0.05120
+epoch: 012, step: 200, train_loss : 0.04724
+epoch: 012, step: 300, train_loss : 0.07100
+epoch: 012, Accuracy : 79.06
+--------------------------------------------------
+epoch: 013, step: 000, train_loss : 0.09813
+epoch: 013, step: 100, train_loss : 0.06467
+epoch: 013, step: 200, train_loss : 0.06709
+epoch: 013, step: 300, train_loss : 0.07198
+epoch: 013, Accuracy : 76.69
+--------------------------------------------------
+epoch: 014, step: 000, train_loss : 0.04757
+epoch: 014, step: 100, train_loss : 0.06484
+epoch: 014, step: 200, train_loss : 0.05588
+epoch: 014, step: 300, train_loss : 0.07811
+epoch: 014, Accuracy : 75.01
+--------------------------------------------------
+epoch: 015, step: 000, train_loss : 0.06622
+epoch: 015, step: 100, train_loss : 0.05501
+epoch: 015, step: 200, train_loss : 0.08461
+epoch: 015, step: 300, train_loss : 0.05402
+epoch: 015, Accuracy : 82.58
+--------------------------------------------------
+epoch: 016, step: 000, train_loss : 0.06112
+epoch: 016, step: 100, train_loss : 0.06492
+epoch: 016, step: 200, train_loss : 0.06910
+epoch: 016, step: 300, train_loss : 0.05639
+epoch: 016, Accuracy : 74.53
+--------------------------------------------------
+epoch: 017, step: 000, train_loss : 0.05790
+epoch: 017, step: 100, train_loss : 0.06201
+epoch: 017, step: 200, train_loss : 0.06022
+epoch: 017, step: 300, train_loss : 0.05357
+epoch: 017, Accuracy : 77.84
+--------------------------------------------------
+epoch: 018, step: 000, train_loss : 0.07662
+epoch: 018, step: 100, train_loss : 0.06003
+epoch: 018, step: 200, train_loss : 0.07578
+epoch: 018, step: 300, train_loss : 0.07979
+epoch: 018, Accuracy : 81.06
+--------------------------------------------------
+epoch: 019, step: 000, train_loss : 0.05520
+epoch: 019, step: 100, train_loss : 0.06209
+epoch: 019, step: 200, train_loss : 0.05308
+epoch: 019, step: 300, train_loss : 0.05833
+epoch: 019, Accuracy : 80.63
+--------------------------------------------------
+epoch: 020, step: 000, train_loss : 0.07877
+epoch: 020, step: 100, train_loss : 0.07321
+epoch: 020, step: 200, train_loss : 0.08974
+epoch: 020, step: 300, train_loss : 0.04652
+epoch: 020, Accuracy : 82.31
+--------------------------------------------------
+epoch: 021, step: 000, train_loss : 0.06606
+epoch: 021, step: 100, train_loss : 0.06272
+epoch: 021, step: 200, train_loss : 0.09349
+epoch: 021, step: 300, train_loss : 0.06907
+epoch: 021, Accuracy : 82.45
+--------------------------------------------------
+epoch: 022, step: 000, train_loss : 0.05970
+epoch: 022, step: 100, train_loss : 0.04847
+epoch: 022, step: 200, train_loss : 0.07118
+epoch: 022, step: 300, train_loss : 0.06441
+epoch: 022, Accuracy : 83.03
+--------------------------------------------------
+epoch: 023, step: 000, train_loss : 0.07236
+epoch: 023, step: 100, train_loss : 0.05673
+epoch: 023, step: 200, train_loss : 0.06306
+epoch: 023, step: 300, train_loss : 0.06347
+epoch: 023, Accuracy : 81.34
+--------------------------------------------------
+epoch: 024, step: 000, train_loss : 0.06310
+epoch: 024, step: 100, train_loss : 0.07108
+epoch: 024, step: 200, train_loss : 0.06423
+epoch: 024, step: 300, train_loss : 0.06080
+epoch: 024, Accuracy : 85.62
+--------------------------------------------------
+epoch: 025, step: 000, train_loss : 0.05980
+epoch: 025, step: 100, train_loss : 0.07368
+epoch: 025, step: 200, train_loss : 0.05076
+epoch: 025, step: 300, train_loss : 0.06634
+epoch: 025, Accuracy : 81.98
+--------------------------------------------------
+epoch: 026, step: 000, train_loss : 0.05259
+epoch: 026, step: 100, train_loss : 0.05774
+epoch: 026, step: 200, train_loss : 0.04656
+epoch: 026, step: 300, train_loss : 0.07229
+epoch: 026, Accuracy : 84.76
+--------------------------------------------------
+epoch: 027, step: 000, train_loss : 0.03935
+epoch: 027, step: 100, train_loss : 0.05084
+epoch: 027, step: 200, train_loss : 0.07025
+epoch: 027, step: 300, train_loss : 0.06754
+epoch: 027, Accuracy : 84.0
+--------------------------------------------------
+epoch: 028, step: 000, train_loss : 0.07863
+epoch: 028, step: 100, train_loss : 0.07453
+epoch: 028, step: 200, train_loss : 0.06730
+epoch: 028, step: 300, train_loss : 0.07697
+epoch: 028, Accuracy : 83.99
+--------------------------------------------------
+epoch: 029, step: 000, train_loss : 0.05796
+epoch: 029, step: 100, train_loss : 0.04770
+epoch: 029, step: 200, train_loss : 0.04252
+epoch: 029, step: 300, train_loss : 0.06528
+epoch: 029, Accuracy : 84.63
+--------------------------------------------------
+epoch: 030, step: 000, train_loss : 0.05591
+epoch: 030, step: 100, train_loss : 0.06835
+epoch: 030, step: 200, train_loss : 0.05367
+epoch: 030, step: 300, train_loss : 0.04501
+epoch: 030, Accuracy : 84.6
+--------------------------------------------------
+epoch: 031, step: 000, train_loss : 0.04919
+epoch: 031, step: 100, train_loss : 0.04983
+epoch: 031, step: 200, train_loss : 0.04944
+epoch: 031, step: 300, train_loss : 0.07142
+epoch: 031, Accuracy : 83.68
+--------------------------------------------------
+
+epoch: 032, step: 000, train_loss : 0.04401
+epoch: 032, step: 100, train_loss : 0.07241
+epoch: 032, step: 200, train_loss : 0.05229
+epoch: 032, step: 300, train_loss : 0.04611
+epoch: 032, Accuracy : 82.75
+--------------------------------------------------
+epoch: 033, step: 000, train_loss : 0.06408
+epoch: 033, step: 100, train_loss : 0.05065
+epoch: 033, step: 200, train_loss : 0.07472
+epoch: 033, step: 300, train_loss : 0.08208
+epoch: 033, Accuracy : 81.59
+--------------------------------------------------
+epoch: 034, step: 000, train_loss : 0.07484
+epoch: 034, step: 100, train_loss : 0.07597
+epoch: 034, step: 200, train_loss : 0.07214
+epoch: 034, step: 300, train_loss : 0.05877
+epoch: 034, Accuracy : 78.08
+--------------------------------------------------
+epoch: 035, step: 000, train_loss : 0.06086
+epoch: 035, step: 100, train_loss : 0.07044
+epoch: 035, step: 200, train_loss : 0.05471
+epoch: 035, step: 300, train_loss : 0.05725
+epoch: 035, Accuracy : 83.67
+--------------------------------------------------
+epoch: 036, step: 000, train_loss : 0.04549
+epoch: 036, step: 100, train_loss : 0.04734
+epoch: 036, step: 200, train_loss : 0.06967
+epoch: 036, step: 300, train_loss : 0.07573
+epoch: 036, Accuracy : 84.62
+--------------------------------------------------
+epoch: 037, step: 000, train_loss : 0.05132
+epoch: 037, step: 100, train_loss : 0.05595
+epoch: 037, step: 200, train_loss : 0.05301
+epoch: 037, step: 300, train_loss : 0.05261
+epoch: 037, Accuracy : 85.66
+--------------------------------------------------
+epoch: 038, step: 000, train_loss : 0.04828
+epoch: 038, step: 100, train_loss : 0.05474
+epoch: 038, step: 200, train_loss : 0.05147
+epoch: 038, step: 300, train_loss : 0.05063
+epoch: 038, Accuracy : 82.83
+--------------------------------------------------
+epoch: 039, step: 000, train_loss : 0.07019
+epoch: 039, step: 100, train_loss : 0.07117
+epoch: 039, step: 200, train_loss : 0.08399
+epoch: 039, step: 300, train_loss : 0.06479
+epoch: 039, Accuracy : 78.95
+--------------------------------------------------
+epoch: 040, step: 000, train_loss : 0.04482
+epoch: 040, step: 100, train_loss : 0.06887
+epoch: 040, step: 200, train_loss : 0.06169
+epoch: 040, step: 300, train_loss : 0.04696
+epoch: 040, Accuracy : 80.67
+--------------------------------------------------
+epoch: 041, step: 000, train_loss : 0.06677
+epoch: 041, step: 100, train_loss : 0.05741
+epoch: 041, step: 200, train_loss : 0.04980
+epoch: 041, step: 300, train_loss : 0.04328
+epoch: 041, Accuracy : 83.42
+--------------------------------------------------
+epoch: 042, step: 000, train_loss : 0.04728
+epoch: 042, step: 100, train_loss : 0.04106
+epoch: 042, step: 200, train_loss : 0.05694
+epoch: 042, step: 300, train_loss : 0.05893
+epoch: 042, Accuracy : 84.24
+--------------------------------------------------
+epoch: 043, step: 000, train_loss : 0.03771
+epoch: 043, step: 100, train_loss : 0.04593
+epoch: 043, step: 200, train_loss : 0.05644
+epoch: 043, step: 300, train_loss : 0.06264
+epoch: 043, Accuracy : 82.23
+--------------------------------------------------
+epoch: 044, step: 000, train_loss : 0.06149
+epoch: 044, step: 100, train_loss : 0.05716
+epoch: 044, step: 200, train_loss : 0.04363
+epoch: 044, step: 300, train_loss : 0.05423
+epoch: 044, Accuracy : 86.21
+--------------------------------------------------
+epoch: 045, step: 000, train_loss : 0.07198
+epoch: 045, step: 100, train_loss : 0.06555
+epoch: 045, step: 200, train_loss : 0.04717
+epoch: 045, step: 300, train_loss : 0.06524
+epoch: 045, Accuracy : 87.0
+--------------------------------------------------
+epoch: 046, step: 000, train_loss : 0.03438
+epoch: 046, step: 100, train_loss : 0.06225
+epoch: 046, step: 200, train_loss : 0.05299
+epoch: 046, step: 300, train_loss : 0.05584
+epoch: 046, Accuracy : 84.49
+--------------------------------------------------
+epoch: 047, step: 000, train_loss : 0.05827
+epoch: 047, step: 100, train_loss : 0.03843
+epoch: 047, step: 200, train_loss : 0.05260
+epoch: 047, step: 300, train_loss : 0.07098
+epoch: 047, Accuracy : 77.6
+--------------------------------------------------
+epoch: 048, step: 000, train_loss : 0.08104
+epoch: 048, step: 100, train_loss : 0.03956
+epoch: 048, step: 200, train_loss : 0.04265
+epoch: 048, step: 300, train_loss : 0.04858
+epoch: 048, Accuracy : 82.35
+--------------------------------------------------
+epoch: 049, step: 000, train_loss : 0.06007
+epoch: 049, step: 100, train_loss : 0.06022
+epoch: 049, step: 200, train_loss : 0.06877
+epoch: 049, step: 300, train_loss : 0.04523
+epoch: 049, Accuracy : 85.57
+--------------------------------------------------
+epoch: 050, step: 000, train_loss : 0.04143
+epoch: 050, step: 100, train_loss : 0.04977
+epoch: 050, step: 200, train_loss : 0.05686
+epoch: 050, step: 300, train_loss : 0.05785
+epoch: 050, Accuracy : 79.25
+--------------------------------------------------
+epoch: 051, step: 000, train_loss : 0.04446
+epoch: 051, step: 100, train_loss : 0.05514
+epoch: 051, step: 200, train_loss : 0.03643
+epoch: 051, step: 300, train_loss : 0.05805
+epoch: 051, Accuracy : 81.47
+--------------------------------------------------
+epoch: 052, step: 000, train_loss : 0.04051
+epoch: 052, step: 100, train_loss : 0.07256
+epoch: 052, step: 200, train_loss : 0.05624
+epoch: 052, step: 300, train_loss : 0.05313
+epoch: 052, Accuracy : 84.22
+--------------------------------------------------
+epoch: 053, step: 000, train_loss : 0.04061
+epoch: 053, step: 100, train_loss : 0.04570
+epoch: 053, step: 200, train_loss : 0.04145
+epoch: 053, step: 300, train_loss : 0.05455
+epoch: 053, Accuracy : 82.97
+--------------------------------------------------
+epoch: 054, step: 000, train_loss : 0.04856
+epoch: 054, step: 100, train_loss : 0.05205
+epoch: 054, step: 200, train_loss : 0.02683
+epoch: 054, step: 300, train_loss : 0.04051
+epoch: 054, Accuracy : 85.88
+--------------------------------------------------
+epoch: 055, step: 000, train_loss : 0.05848
+epoch: 055, step: 100, train_loss : 0.06054
+epoch: 055, step: 200, train_loss : 0.03192
+epoch: 055, step: 300, train_loss : 0.05952
+epoch: 055, Accuracy : 83.45
+--------------------------------------------------
+epoch: 056, step: 000, train_loss : 0.04000
+epoch: 056, step: 100, train_loss : 0.04519
+epoch: 056, step: 200, train_loss : 0.03474
+epoch: 056, step: 300, train_loss : 0.04287
+epoch: 056, Accuracy : 82.89
+--------------------------------------------------
+epoch: 057, step: 000, train_loss : 0.05662
+epoch: 057, step: 100, train_loss : 0.04438
+epoch: 057, step: 200, train_loss : 0.03666
+epoch: 057, step: 300, train_loss : 0.03586
+epoch: 057, Accuracy : 84.19
+--------------------------------------------------
+epoch: 058, step: 000, train_loss : 0.06714
+epoch: 058, step: 100, train_loss : 0.03587
+epoch: 058, step: 200, train_loss : 0.04315
+epoch: 058, step: 300, train_loss : 0.07660
+epoch: 058, Accuracy : 81.63
+--------------------------------------------------
+epoch: 059, step: 000, train_loss : 0.06254
+epoch: 059, step: 100, train_loss : 0.02794
+epoch: 059, step: 200, train_loss : 0.03604
+epoch: 059, step: 300, train_loss : 0.05264
+epoch: 059, Accuracy : 88.36
+--------------------------------------------------
+epoch: 060, step: 000, train_loss : 0.03832
+epoch: 060, step: 100, train_loss : 0.04282
+epoch: 060, step: 200, train_loss : 0.03819
+epoch: 060, step: 300, train_loss : 0.07093
+epoch: 060, Accuracy : 85.46
+--------------------------------------------------
+epoch: 061, step: 000, train_loss : 0.06290
+epoch: 061, step: 100, train_loss : 0.05401
+epoch: 061, step: 200, train_loss : 0.03510
+epoch: 061, step: 300, train_loss : 0.05018
+epoch: 061, Accuracy : 83.75
+--------------------------------------------------
+epoch: 062, step: 000, train_loss : 0.04931
+epoch: 062, step: 100, train_loss : 0.05313
+epoch: 062, step: 200, train_loss : 0.03045
+epoch: 062, step: 300, train_loss : 0.05766
+epoch: 062, Accuracy : 85.13
+--------------------------------------------------
+epoch: 063, step: 000, train_loss : 0.04531
+epoch: 063, step: 100, train_loss : 0.06258
+epoch: 063, step: 200, train_loss : 0.05721
+epoch: 063, step: 300, train_loss : 0.06613
+epoch: 063, Accuracy : 86.14
+--------------------------------------------------
+epoch: 064, step: 000, train_loss : 0.04308
+
+epoch: 064, step: 100, train_loss : 0.05895
+epoch: 064, step: 200, train_loss : 0.04296
+epoch: 064, step: 300, train_loss : 0.05557
+epoch: 064, Accuracy : 84.16
+--------------------------------------------------
+epoch: 065, step: 000, train_loss : 0.03704
+epoch: 065, step: 100, train_loss : 0.03545
+epoch: 065, step: 200, train_loss : 0.03908
+epoch: 065, step: 300, train_loss : 0.04611
+epoch: 065, Accuracy : 85.94
+--------------------------------------------------
+epoch: 066, step: 000, train_loss : 0.04591
+epoch: 066, step: 100, train_loss : 0.03861
+epoch: 066, step: 200, train_loss : 0.03838
+epoch: 066, step: 300, train_loss : 0.05075
+epoch: 066, Accuracy : 87.26
+--------------------------------------------------
+epoch: 067, step: 000, train_loss : 0.04036
+epoch: 067, step: 100, train_loss : 0.04567
+epoch: 067, step: 200, train_loss : 0.05412
+epoch: 067, step: 300, train_loss : 0.03980
+epoch: 067, Accuracy : 80.59
+--------------------------------------------------
+epoch: 068, step: 000, train_loss : 0.03695
+epoch: 068, step: 100, train_loss : 0.06341
+epoch: 068, step: 200, train_loss : 0.02630
+epoch: 068, step: 300, train_loss : 0.04521
+epoch: 068, Accuracy : 86.03
+--------------------------------------------------
+epoch: 069, step: 000, train_loss : 0.05432
+epoch: 069, step: 100, train_loss : 0.06142
+epoch: 069, step: 200, train_loss : 0.05297
+epoch: 069, step: 300, train_loss : 0.04578
+epoch: 069, Accuracy : 85.47
+--------------------------------------------------
+epoch: 070, step: 000, train_loss : 0.04103
+epoch: 070, step: 100, train_loss : 0.04386
+epoch: 070, step: 200, train_loss : 0.05013
+epoch: 070, step: 300, train_loss : 0.03506
+epoch: 070, Accuracy : 85.24
+--------------------------------------------------
+epoch: 071, step: 000, train_loss : 0.05258
+epoch: 071, step: 100, train_loss : 0.04280
+epoch: 071, step: 200, train_loss : 0.05352
+epoch: 071, step: 300, train_loss : 0.04839
+epoch: 071, Accuracy : 83.49
+--------------------------------------------------
+epoch: 072, step: 000, train_loss : 0.05012
+epoch: 072, step: 100, train_loss : 0.03572
+epoch: 072, step: 200, train_loss : 0.05741
+epoch: 072, step: 300, train_loss : 0.05158
+epoch: 072, Accuracy : 85.99
+--------------------------------------------------
+epoch: 073, step: 000, train_loss : 0.03677
+epoch: 073, step: 100, train_loss : 0.03794
+epoch: 073, step: 200, train_loss : 0.02769
+epoch: 073, step: 300, train_loss : 0.04863
+epoch: 073, Accuracy : 85.25
+--------------------------------------------------
+epoch: 074, step: 000, train_loss : 0.04810
+epoch: 074, step: 100, train_loss : 0.06232
+epoch: 074, step: 200, train_loss : 0.03068
+epoch: 074, step: 300, train_loss : 0.04876
+epoch: 074, Accuracy : 87.65
+--------------------------------------------------
+epoch: 075, step: 000, train_loss : 0.02411
+epoch: 075, step: 100, train_loss : 0.03744
+epoch: 075, step: 200, train_loss : 0.04123
+epoch: 075, step: 300, train_loss : 0.06026
+epoch: 075, Accuracy : 82.74
+--------------------------------------------------
+epoch: 076, step: 000, train_loss : 0.03742
+epoch: 076, step: 100, train_loss : 0.03507
+epoch: 076, step: 200, train_loss : 0.03764
+epoch: 076, step: 300, train_loss : 0.04739
+epoch: 076, Accuracy : 88.43
+--------------------------------------------------
+epoch: 077, step: 000, train_loss : 0.04298
+epoch: 077, step: 100, train_loss : 0.03908
+epoch: 077, step: 200, train_loss : 0.03949
+epoch: 077, step: 300, train_loss : 0.04632
+epoch: 077, Accuracy : 86.05
+--------------------------------------------------
+epoch: 078, step: 000, train_loss : 0.03692
+epoch: 078, step: 100, train_loss : 0.02811
+epoch: 078, step: 200, train_loss : 0.04602
+epoch: 078, step: 300, train_loss : 0.04421
+epoch: 078, Accuracy : 87.57
+--------------------------------------------------
+epoch: 079, step: 000, train_loss : 0.02421
+epoch: 079, step: 100, train_loss : 0.03186
+epoch: 079, step: 200, train_loss : 0.03028
+epoch: 079, step: 300, train_loss : 0.03748
+epoch: 079, Accuracy : 84.21
+--------------------------------------------------
+epoch: 080, step: 000, train_loss : 0.03667
+epoch: 080, step: 100, train_loss : 0.04748
+epoch: 080, step: 200, train_loss : 0.03175
+epoch: 080, step: 300, train_loss : 0.03176
+epoch: 080, Accuracy : 84.16
+--------------------------------------------------
+epoch: 081, step: 000, train_loss : 0.04204
+epoch: 081, step: 100, train_loss : 0.04464
+epoch: 081, step: 200, train_loss : 0.06133
+epoch: 081, step: 300, train_loss : 0.03951
+epoch: 081, Accuracy : 85.05
+--------------------------------------------------
+epoch: 082, step: 000, train_loss : 0.05010
+epoch: 082, step: 100, train_loss : 0.04389
+epoch: 082, step: 200, train_loss : 0.04212
+epoch: 082, step: 300, train_loss : 0.04278
+epoch: 082, Accuracy : 88.5
+--------------------------------------------------
+epoch: 083, step: 000, train_loss : 0.02146
+epoch: 083, step: 100, train_loss : 0.05425
+epoch: 083, step: 200, train_loss : 0.03245
+epoch: 083, step: 300, train_loss : 0.04273
+epoch: 083, Accuracy : 87.81
+--------------------------------------------------
+epoch: 084, step: 000, train_loss : 0.05996
+epoch: 084, step: 100, train_loss : 0.04198
+epoch: 084, step: 200, train_loss : 0.03062
+epoch: 084, step: 300, train_loss : 0.04637
+epoch: 084, Accuracy : 87.09
+--------------------------------------------------
+epoch: 085, step: 000, train_loss : 0.03750
+epoch: 085, step: 100, train_loss : 0.04227
+epoch: 085, step: 200, train_loss : 0.04325
+epoch: 085, step: 300, train_loss : 0.04355
+epoch: 085, Accuracy : 87.5
+--------------------------------------------------
+epoch: 086, step: 000, train_loss : 0.02982
+epoch: 086, step: 100, train_loss : 0.05186
+epoch: 086, step: 200, train_loss : 0.03388
+epoch: 086, step: 300, train_loss : 0.06556
+epoch: 086, Accuracy : 85.41
+--------------------------------------------------
+epoch: 087, step: 000, train_loss : 0.05374
+epoch: 087, step: 100, train_loss : 0.02315
+epoch: 087, step: 200, train_loss : 0.05413
+epoch: 087, step: 300, train_loss : 0.05249
+epoch: 087, Accuracy : 87.73
+--------------------------------------------------
+epoch: 088, step: 000, train_loss : 0.04725
+epoch: 088, step: 100, train_loss : 0.04487
+epoch: 088, step: 200, train_loss : 0.03243
+epoch: 088, step: 300, train_loss : 0.04925
+epoch: 088, Accuracy : 87.31
+--------------------------------------------------
+epoch: 089, step: 000, train_loss : 0.02391
+epoch: 089, step: 100, train_loss : 0.04091
+epoch: 089, step: 200, train_loss : 0.03722
+epoch: 089, step: 300, train_loss : 0.03303
+epoch: 089, Accuracy : 88.11
+--------------------------------------------------
+epoch: 090, step: 000, train_loss : 0.02344
+epoch: 090, step: 100, train_loss : 0.04372
+epoch: 090, step: 200, train_loss : 0.01787
+epoch: 090, step: 300, train_loss : 0.03215
+epoch: 090, Accuracy : 86.51
+--------------------------------------------------
+epoch: 091, step: 000, train_loss : 0.03778
+epoch: 091, step: 100, train_loss : 0.04001
+epoch: 091, step: 200, train_loss : 0.02332
+epoch: 091, step: 300, train_loss : 0.04776
+epoch: 091, Accuracy : 85.6
+--------------------------------------------------
+epoch: 092, step: 000, train_loss : 0.04061
+epoch: 092, step: 100, train_loss : 0.02686
+epoch: 092, step: 200, train_loss : 0.04608
+epoch: 092, step: 300, train_loss : 0.04931
+epoch: 092, Accuracy : 85.81
+--------------------------------------------------
+epoch: 093, step: 000, train_loss : 0.03286
+epoch: 093, step: 100, train_loss : 0.03002
+epoch: 093, step: 200, train_loss : 0.03910
+epoch: 093, step: 300, train_loss : 0.04797
+epoch: 093, Accuracy : 85.61
+--------------------------------------------------
+epoch: 094, step: 000, train_loss : 0.03250
+epoch: 094, step: 100, train_loss : 0.02374
+epoch: 094, step: 200, train_loss : 0.03509
+epoch: 094, step: 300, train_loss : 0.03846
+epoch: 094, Accuracy : 89.37
+--------------------------------------------------
+epoch: 095, step: 000, train_loss : 0.03600
+epoch: 095, step: 100, train_loss : 0.02413
+epoch: 095, step: 200, train_loss : 0.04914
+epoch: 095, step: 300, train_loss : 0.03532
+epoch: 095, Accuracy : 87.78
+--------------------------------------------------
+epoch: 096, step: 000, train_loss : 0.03336
+epoch: 096, step: 100, train_loss : 0.04784
+
+epoch: 096, step: 200, train_loss : 0.02238
+epoch: 096, step: 300, train_loss : 0.03599
+epoch: 096, Accuracy : 89.13
+--------------------------------------------------
+epoch: 097, step: 000, train_loss : 0.03614
+epoch: 097, step: 100, train_loss : 0.02447
+epoch: 097, step: 200, train_loss : 0.04094
+epoch: 097, step: 300, train_loss : 0.03415
+epoch: 097, Accuracy : 87.74
+--------------------------------------------------
+epoch: 098, step: 000, train_loss : 0.02241
+epoch: 098, step: 100, train_loss : 0.04819
+epoch: 098, step: 200, train_loss : 0.02687
+epoch: 098, step: 300, train_loss : 0.04066
+epoch: 098, Accuracy : 89.12
+--------------------------------------------------
+epoch: 099, step: 000, train_loss : 0.03052
+epoch: 099, step: 100, train_loss : 0.03080
+epoch: 099, step: 200, train_loss : 0.02918
+epoch: 099, step: 300, train_loss : 0.04015
+epoch: 099, Accuracy : 88.75
+--------------------------------------------------
+epoch: 100, step: 000, train_loss : 0.05038
+epoch: 100, step: 100, train_loss : 0.04223
+epoch: 100, step: 200, train_loss : 0.04170
+epoch: 100, step: 300, train_loss : 0.04260
+epoch: 100, Accuracy : 87.94
+--------------------------------------------------
+epoch: 101, step: 000, train_loss : 0.03292
+epoch: 101, step: 100, train_loss : 0.02763
+epoch: 101, step: 200, train_loss : 0.03758
+epoch: 101, step: 300, train_loss : 0.03293
+epoch: 101, Accuracy : 88.13
+--------------------------------------------------
+epoch: 102, step: 000, train_loss : 0.03153
+epoch: 102, step: 100, train_loss : 0.03282
+epoch: 102, step: 200, train_loss : 0.03091
+epoch: 102, step: 300, train_loss : 0.05895
+epoch: 102, Accuracy : 88.63
+--------------------------------------------------
+epoch: 103, step: 000, train_loss : 0.02239
+epoch: 103, step: 100, train_loss : 0.02636
+epoch: 103, step: 200, train_loss : 0.03811
+epoch: 103, step: 300, train_loss : 0.02343
+epoch: 103, Accuracy : 88.12
+--------------------------------------------------
+epoch: 104, step: 000, train_loss : 0.04446
+epoch: 104, step: 100, train_loss : 0.04036
+epoch: 104, step: 200, train_loss : 0.02860
+epoch: 104, step: 300, train_loss : 0.03037
+epoch: 104, Accuracy : 88.56
+--------------------------------------------------
+epoch: 105, step: 000, train_loss : 0.02840
+epoch: 105, step: 100, train_loss : 0.03537
+epoch: 105, step: 200, train_loss : 0.04087
+epoch: 105, step: 300, train_loss : 0.02991
+epoch: 105, Accuracy : 87.38
+--------------------------------------------------
+epoch: 106, step: 000, train_loss : 0.02946
+epoch: 106, step: 100, train_loss : 0.02204
+epoch: 106, step: 200, train_loss : 0.02768
+epoch: 106, step: 300, train_loss : 0.02570
+epoch: 106, Accuracy : 89.24
+--------------------------------------------------
+epoch: 107, step: 000, train_loss : 0.02847
+epoch: 107, step: 100, train_loss : 0.02796
+epoch: 107, step: 200, train_loss : 0.02821
+epoch: 107, step: 300, train_loss : 0.02506
+epoch: 107, Accuracy : 89.74
+--------------------------------------------------
+epoch: 108, step: 000, train_loss : 0.02264
+epoch: 108, step: 100, train_loss : 0.02857
+epoch: 108, step: 200, train_loss : 0.02930
+epoch: 108, step: 300, train_loss : 0.03077
+epoch: 108, Accuracy : 88.64
+--------------------------------------------------
+epoch: 109, step: 000, train_loss : 0.03192
+epoch: 109, step: 100, train_loss : 0.02736
+epoch: 109, step: 200, train_loss : 0.03455
+epoch: 109, step: 300, train_loss : 0.03107
+epoch: 109, Accuracy : 89.51
+--------------------------------------------------
+epoch: 110, step: 000, train_loss : 0.03406
+epoch: 110, step: 100, train_loss : 0.02832
+epoch: 110, step: 200, train_loss : 0.03086
+epoch: 110, step: 300, train_loss : 0.02991
+epoch: 110, Accuracy : 86.04
+--------------------------------------------------
+epoch: 111, step: 000, train_loss : 0.02726
+epoch: 111, step: 100, train_loss : 0.03096
+epoch: 111, step: 200, train_loss : 0.03450
+epoch: 111, step: 300, train_loss : 0.05425
+epoch: 111, Accuracy : 88.98
+--------------------------------------------------
+epoch: 112, step: 000, train_loss : 0.03541
+epoch: 112, step: 100, train_loss : 0.03387
+epoch: 112, step: 200, train_loss : 0.01400
+epoch: 112, step: 300, train_loss : 0.02857
+epoch: 112, Accuracy : 88.43
+--------------------------------------------------
+epoch: 113, step: 000, train_loss : 0.02293
+epoch: 113, step: 100, train_loss : 0.02803
+epoch: 113, step: 200, train_loss : 0.02209
+epoch: 113, step: 300, train_loss : 0.03513
+epoch: 113, Accuracy : 89.69
+--------------------------------------------------
+epoch: 114, step: 000, train_loss : 0.01900
+epoch: 114, step: 100, train_loss : 0.02029
+epoch: 114, step: 200, train_loss : 0.05233
+epoch: 114, step: 300, train_loss : 0.02850
+epoch: 114, Accuracy : 86.88
+--------------------------------------------------
+epoch: 115, step: 000, train_loss : 0.04635
+epoch: 115, step: 100, train_loss : 0.01931
+epoch: 115, step: 200, train_loss : 0.04233
+epoch: 115, step: 300, train_loss : 0.03242
+epoch: 115, Accuracy : 89.58
+--------------------------------------------------
+epoch: 116, step: 000, train_loss : 0.02883
+epoch: 116, step: 100, train_loss : 0.02293
+epoch: 116, step: 200, train_loss : 0.02671
+epoch: 116, step: 300, train_loss : 0.04700
+epoch: 116, Accuracy : 89.26
+--------------------------------------------------
+epoch: 117, step: 000, train_loss : 0.02844
+epoch: 117, step: 100, train_loss : 0.02636
+epoch: 117, step: 200, train_loss : 0.04091
+epoch: 117, step: 300, train_loss : 0.02512
+epoch: 117, Accuracy : 88.11
+--------------------------------------------------
+epoch: 118, step: 000, train_loss : 0.03270
+epoch: 118, step: 100, train_loss : 0.02946
+epoch: 118, step: 200, train_loss : 0.02551
+epoch: 118, step: 300, train_loss : 0.02948
+epoch: 118, Accuracy : 90.67
+--------------------------------------------------
+epoch: 119, step: 000, train_loss : 0.01305
+epoch: 119, step: 100, train_loss : 0.02584
+epoch: 119, step: 200, train_loss : 0.02952
+epoch: 119, step: 300, train_loss : 0.02027
+epoch: 119, Accuracy : 89.63
+--------------------------------------------------
+epoch: 120, step: 000, train_loss : 0.01764
+epoch: 120, step: 100, train_loss : 0.01953
+epoch: 120, step: 200, train_loss : 0.01747
+epoch: 120, step: 300, train_loss : 0.03189
+epoch: 120, Accuracy : 90.6
+--------------------------------------------------
+epoch: 121, step: 000, train_loss : 0.02708
+epoch: 121, step: 100, train_loss : 0.03048
+epoch: 121, step: 200, train_loss : 0.02548
+epoch: 121, step: 300, train_loss : 0.02776
+epoch: 121, Accuracy : 90.73
+--------------------------------------------------
+epoch: 122, step: 000, train_loss : 0.02525
+epoch: 122, step: 100, train_loss : 0.02029
+epoch: 122, step: 200, train_loss : 0.03229
+epoch: 122, step: 300, train_loss : 0.03514
+epoch: 122, Accuracy : 90.34
+--------------------------------------------------
+epoch: 123, step: 000, train_loss : 0.02653
+epoch: 123, step: 100, train_loss : 0.03170
+epoch: 123, step: 200, train_loss : 0.02625
+epoch: 123, step: 300, train_loss : 0.02957
+epoch: 123, Accuracy : 90.8
+--------------------------------------------------
+epoch: 124, step: 000, train_loss : 0.01504
+epoch: 124, step: 100, train_loss : 0.02640
+epoch: 124, step: 200, train_loss : 0.02424
+epoch: 124, step: 300, train_loss : 0.02205
+epoch: 124, Accuracy : 89.3
+--------------------------------------------------
+epoch: 125, step: 000, train_loss : 0.01732
+epoch: 125, step: 100, train_loss : 0.01921
+epoch: 125, step: 200, train_loss : 0.02444
+epoch: 125, step: 300, train_loss : 0.02769
+epoch: 125, Accuracy : 89.14
+--------------------------------------------------
+epoch: 126, step: 000, train_loss : 0.01769
+epoch: 126, step: 100, train_loss : 0.02848
+epoch: 126, step: 200, train_loss : 0.01545
+epoch: 126, step: 300, train_loss : 0.01424
+epoch: 126, Accuracy : 86.65
+--------------------------------------------------
+epoch: 127, step: 000, train_loss : 0.02532
+epoch: 127, step: 100, train_loss : 0.01401
+epoch: 127, step: 200, train_loss : 0.02737
+epoch: 127, step: 300, train_loss : 0.02825
+epoch: 127, Accuracy : 91.11
+--------------------------------------------------
+epoch: 128, step: 000, train_loss : 0.02581
+epoch: 128, step: 100, train_loss : 0.02205
+epoch: 128, step: 200, train_loss : 0.04842
+
+epoch: 128, step: 300, train_loss : 0.00998
+epoch: 128, Accuracy : 90.56
+--------------------------------------------------
+epoch: 129, step: 000, train_loss : 0.02772
+epoch: 129, step: 100, train_loss : 0.01738
+epoch: 129, step: 200, train_loss : 0.03272
+epoch: 129, step: 300, train_loss : 0.02640
+epoch: 129, Accuracy : 91.29
+--------------------------------------------------
+epoch: 130, step: 000, train_loss : 0.03404
+epoch: 130, step: 100, train_loss : 0.02291
+epoch: 130, step: 200, train_loss : 0.01710
+epoch: 130, step: 300, train_loss : 0.03807
+epoch: 130, Accuracy : 90.95
+--------------------------------------------------
+epoch: 131, step: 000, train_loss : 0.01239
+epoch: 131, step: 100, train_loss : 0.02076
+epoch: 131, step: 200, train_loss : 0.02071
+epoch: 131, step: 300, train_loss : 0.00811
+epoch: 131, Accuracy : 90.81
+--------------------------------------------------
+epoch: 132, step: 000, train_loss : 0.02159
+epoch: 132, step: 100, train_loss : 0.01744
+epoch: 132, step: 200, train_loss : 0.01520
+epoch: 132, step: 300, train_loss : 0.01508
+epoch: 132, Accuracy : 91.73
+--------------------------------------------------
+epoch: 133, step: 000, train_loss : 0.02114
+epoch: 133, step: 100, train_loss : 0.03566
+epoch: 133, step: 200, train_loss : 0.01889
+epoch: 133, step: 300, train_loss : 0.01379
+epoch: 133, Accuracy : 91.64
+--------------------------------------------------
+epoch: 134, step: 000, train_loss : 0.01538
+epoch: 134, step: 100, train_loss : 0.02104
+epoch: 134, step: 200, train_loss : 0.01422
+epoch: 134, step: 300, train_loss : 0.01837
+epoch: 134, Accuracy : 89.56
+--------------------------------------------------
+epoch: 135, step: 000, train_loss : 0.01542
+epoch: 135, step: 100, train_loss : 0.01308
+epoch: 135, step: 200, train_loss : 0.01516
+epoch: 135, step: 300, train_loss : 0.01419
+epoch: 135, Accuracy : 91.77
+--------------------------------------------------
+epoch: 136, step: 000, train_loss : 0.01483
+epoch: 136, step: 100, train_loss : 0.02035
+epoch: 136, step: 200, train_loss : 0.01050
+epoch: 136, step: 300, train_loss : 0.01962
+epoch: 136, Accuracy : 91.45
+--------------------------------------------------
+epoch: 137, step: 000, train_loss : 0.01484
+epoch: 137, step: 100, train_loss : 0.00962
+epoch: 137, step: 200, train_loss : 0.02005
+epoch: 137, step: 300, train_loss : 0.01942
+epoch: 137, Accuracy : 90.03
+--------------------------------------------------
+epoch: 138, step: 000, train_loss : 0.01420
+epoch: 138, step: 100, train_loss : 0.00800
+epoch: 138, step: 200, train_loss : 0.00811
+epoch: 138, step: 300, train_loss : 0.02695
+epoch: 138, Accuracy : 90.83
+--------------------------------------------------
+epoch: 139, step: 000, train_loss : 0.01660
+epoch: 139, step: 100, train_loss : 0.01475
+epoch: 139, step: 200, train_loss : 0.02082
+epoch: 139, step: 300, train_loss : 0.03838
+epoch: 139, Accuracy : 91.68
+--------------------------------------------------
+epoch: 140, step: 000, train_loss : 0.01262
+epoch: 140, step: 100, train_loss : 0.02214
+epoch: 140, step: 200, train_loss : 0.00880
+epoch: 140, step: 300, train_loss : 0.01292
+epoch: 140, Accuracy : 91.59
+--------------------------------------------------
+epoch: 141, step: 000, train_loss : 0.02120
+epoch: 141, step: 100, train_loss : 0.01252
+epoch: 141, step: 200, train_loss : 0.01430
+epoch: 141, step: 300, train_loss : 0.02046
+epoch: 141, Accuracy : 92.55
+--------------------------------------------------
+epoch: 142, step: 000, train_loss : 0.01429
+epoch: 142, step: 100, train_loss : 0.01591
+epoch: 142, step: 200, train_loss : 0.01334
+epoch: 142, step: 300, train_loss : 0.00906
+epoch: 142, Accuracy : 91.88
+--------------------------------------------------
+epoch: 143, step: 000, train_loss : 0.01805
+epoch: 143, step: 100, train_loss : 0.01650
+epoch: 143, step: 200, train_loss : 0.01747
+epoch: 143, step: 300, train_loss : 0.01694
+epoch: 143, Accuracy : 91.28
+--------------------------------------------------
+epoch: 144, step: 000, train_loss : 0.01177
+epoch: 144, step: 100, train_loss : 0.01518
+epoch: 144, step: 200, train_loss : 0.00953
+epoch: 144, step: 300, train_loss : 0.01062
+epoch: 144, Accuracy : 92.73
+--------------------------------------------------
+epoch: 145, step: 000, train_loss : 0.00855
+epoch: 145, step: 100, train_loss : 0.00598
+epoch: 145, step: 200, train_loss : 0.01350
+epoch: 145, step: 300, train_loss : 0.01694
+epoch: 145, Accuracy : 92.22
+--------------------------------------------------
+epoch: 146, step: 000, train_loss : 0.01306
+epoch: 146, step: 100, train_loss : 0.00384
+epoch: 146, step: 200, train_loss : 0.01002
+epoch: 146, step: 300, train_loss : 0.01238
+epoch: 146, Accuracy : 92.92
+--------------------------------------------------
+epoch: 147, step: 000, train_loss : 0.00765
+epoch: 147, step: 100, train_loss : 0.00689
+epoch: 147, step: 200, train_loss : 0.00594
+epoch: 147, step: 300, train_loss : 0.00815
+epoch: 147, Accuracy : 92.31
+--------------------------------------------------
+epoch: 148, step: 000, train_loss : 0.00556
+epoch: 148, step: 100, train_loss : 0.00805
+epoch: 148, step: 200, train_loss : 0.00842
+epoch: 148, step: 300, train_loss : 0.01730
+epoch: 148, Accuracy : 92.86
+--------------------------------------------------
+epoch: 149, step: 000, train_loss : 0.00622
+epoch: 149, step: 100, train_loss : 0.01256
+epoch: 149, step: 200, train_loss : 0.00786
+epoch: 149, step: 300, train_loss : 0.01028
+epoch: 149, Accuracy : 92.68
+--------------------------------------------------
+epoch: 150, step: 000, train_loss : 0.00783
+epoch: 150, step: 100, train_loss : 0.00771
+epoch: 150, step: 200, train_loss : 0.00929
+epoch: 150, step: 300, train_loss : 0.01888
+epoch: 150, Accuracy : 92.41
+--------------------------------------------------
+epoch: 151, step: 000, train_loss : 0.01041
+epoch: 151, step: 100, train_loss : 0.00672
+epoch: 151, step: 200, train_loss : 0.01148
+epoch: 151, step: 300, train_loss : 0.00608
+epoch: 151, Accuracy : 91.88
+--------------------------------------------------
+epoch: 152, step: 000, train_loss : 0.01715
+epoch: 152, step: 100, train_loss : 0.01162
+epoch: 152, step: 200, train_loss : 0.00330
+epoch: 152, step: 300, train_loss : 0.00613
+epoch: 152, Accuracy : 92.04
+--------------------------------------------------
+epoch: 153, step: 000, train_loss : 0.01149
+epoch: 153, step: 100, train_loss : 0.00548
+epoch: 153, step: 200, train_loss : 0.01241
+epoch: 153, step: 300, train_loss : 0.00261
+epoch: 153, Accuracy : 92.8
+--------------------------------------------------
+epoch: 154, step: 000, train_loss : 0.00800
+epoch: 154, step: 100, train_loss : 0.00640
+epoch: 154, step: 200, train_loss : 0.00670
+epoch: 154, step: 300, train_loss : 0.00737
+epoch: 154, Accuracy : 92.92
+--------------------------------------------------
+epoch: 155, step: 000, train_loss : 0.00459
+epoch: 155, step: 100, train_loss : 0.01190
+epoch: 155, step: 200, train_loss : 0.00341
+epoch: 155, step: 300, train_loss : 0.00365
+epoch: 155, Accuracy : 92.61
+--------------------------------------------------
+epoch: 156, step: 000, train_loss : 0.00639
+epoch: 156, step: 100, train_loss : 0.00192
+epoch: 156, step: 200, train_loss : 0.00558
+epoch: 156, step: 300, train_loss : 0.00488
+epoch: 156, Accuracy : 92.81
+--------------------------------------------------
+epoch: 157, step: 000, train_loss : 0.00257
+epoch: 157, step: 100, train_loss : 0.00401
+epoch: 157, step: 200, train_loss : 0.00687
+epoch: 157, step: 300, train_loss : 0.00303
+epoch: 157, Accuracy : 92.91
+--------------------------------------------------
+epoch: 158, step: 000, train_loss : 0.00409
+epoch: 158, step: 100, train_loss : 0.00289
+epoch: 158, step: 200, train_loss : 0.00386
+epoch: 158, step: 300, train_loss : 0.00642
+epoch: 158, Accuracy : 93.53
+--------------------------------------------------
+epoch: 159, step: 000, train_loss : 0.00289
+epoch: 159, step: 100, train_loss : 0.00456
+epoch: 159, step: 200, train_loss : 0.00579
+epoch: 159, step: 300, train_loss : 0.00800
+epoch: 159, Accuracy : 93.17
+--------------------------------------------------
+epoch: 160, step: 000, train_loss : 0.00593
+epoch: 160, step: 100, train_loss : 0.00362
+epoch: 160, step: 200, train_loss : 0.00381
+epoch: 160, step: 300, train_loss : 0.00496
+
+epoch: 160, Accuracy : 93.31
+--------------------------------------------------
+epoch: 161, step: 000, train_loss : 0.00260
+epoch: 161, step: 100, train_loss : 0.00228
+epoch: 161, step: 200, train_loss : 0.00869
+epoch: 161, step: 300, train_loss : 0.00514
+epoch: 161, Accuracy : 93.55
+--------------------------------------------------
+epoch: 162, step: 000, train_loss : 0.00261
+epoch: 162, step: 100, train_loss : 0.00186
+epoch: 162, step: 200, train_loss : 0.00957
+epoch: 162, step: 300, train_loss : 0.00433
+epoch: 162, Accuracy : 93.78
+--------------------------------------------------
+epoch: 163, step: 000, train_loss : 0.00515
+epoch: 163, step: 100, train_loss : 0.00204
+epoch: 163, step: 200, train_loss : 0.00405
+epoch: 163, step: 300, train_loss : 0.00308
+epoch: 163, Accuracy : 94.01
+--------------------------------------------------
+epoch: 164, step: 000, train_loss : 0.00363
+epoch: 164, step: 100, train_loss : 0.00872
+epoch: 164, step: 200, train_loss : 0.00726
+epoch: 164, step: 300, train_loss : 0.00285
+epoch: 164, Accuracy : 93.76
+--------------------------------------------------
+epoch: 165, step: 000, train_loss : 0.00155
+epoch: 165, step: 100, train_loss : 0.00129
+epoch: 165, step: 200, train_loss : 0.00115
+epoch: 165, step: 300, train_loss : 0.00431
+epoch: 165, Accuracy : 94.08
+--------------------------------------------------
+epoch: 166, step: 000, train_loss : 0.00200
+epoch: 166, step: 100, train_loss : 0.00163
+epoch: 166, step: 200, train_loss : 0.00195
+epoch: 166, step: 300, train_loss : 0.00201
+epoch: 166, Accuracy : 94.17
+--------------------------------------------------
+epoch: 167, step: 000, train_loss : 0.00163
+epoch: 167, step: 100, train_loss : 0.00168
+epoch: 167, step: 200, train_loss : 0.00234
+epoch: 167, step: 300, train_loss : 0.00356
+epoch: 167, Accuracy : 93.94
+--------------------------------------------------
+epoch: 168, step: 000, train_loss : 0.00687
+epoch: 168, step: 100, train_loss : 0.00291
+epoch: 168, step: 200, train_loss : 0.00162
+epoch: 168, step: 300, train_loss : 0.00157
+epoch: 168, Accuracy : 94.51
+--------------------------------------------------
+epoch: 169, step: 000, train_loss : 0.00138
+epoch: 169, step: 100, train_loss : 0.00498
+epoch: 169, step: 200, train_loss : 0.00140
+epoch: 169, step: 300, train_loss : 0.00221
+epoch: 169, Accuracy : 94.43
+--------------------------------------------------
+epoch: 170, step: 000, train_loss : 0.00288
+epoch: 170, step: 100, train_loss : 0.00161
+epoch: 170, step: 200, train_loss : 0.00106
+epoch: 170, step: 300, train_loss : 0.00194
+epoch: 170, Accuracy : 94.51
+--------------------------------------------------
+epoch: 171, step: 000, train_loss : 0.00109
+epoch: 171, step: 100, train_loss : 0.00151
+epoch: 171, step: 200, train_loss : 0.00151
+epoch: 171, step: 300, train_loss : 0.00231
+epoch: 171, Accuracy : 94.82
+--------------------------------------------------
+epoch: 172, step: 000, train_loss : 0.00128
+epoch: 172, step: 100, train_loss : 0.00135
+epoch: 172, step: 200, train_loss : 0.00156
+epoch: 172, step: 300, train_loss : 0.00158
+epoch: 172, Accuracy : 95.06
+--------------------------------------------------
+epoch: 173, step: 000, train_loss : 0.00229
+epoch: 173, step: 100, train_loss : 0.00111
+epoch: 173, step: 200, train_loss : 0.00094
+epoch: 173, step: 300, train_loss : 0.00104
+epoch: 173, Accuracy : 94.9
+--------------------------------------------------
+epoch: 174, step: 000, train_loss : 0.00153
+epoch: 174, step: 100, train_loss : 0.00125
+epoch: 174, step: 200, train_loss : 0.00148
+epoch: 174, step: 300, train_loss : 0.00121
+epoch: 174, Accuracy : 95.0
+--------------------------------------------------
+epoch: 175, step: 000, train_loss : 0.00098
+epoch: 175, step: 100, train_loss : 0.00185
+epoch: 175, step: 200, train_loss : 0.00101
+epoch: 175, step: 300, train_loss : 0.00102
+epoch: 175, Accuracy : 94.99
+--------------------------------------------------
+epoch: 176, step: 000, train_loss : 0.00104
+epoch: 176, step: 100, train_loss : 0.00126
+epoch: 176, step: 200, train_loss : 0.00099
+epoch: 176, step: 300, train_loss : 0.00188
+epoch: 176, Accuracy : 95.06
+--------------------------------------------------
+epoch: 177, step: 000, train_loss : 0.00106
+epoch: 177, step: 100, train_loss : 0.00140
+epoch: 177, step: 200, train_loss : 0.00108
+epoch: 177, step: 300, train_loss : 0.00098
+epoch: 177, Accuracy : 95.25
+--------------------------------------------------
+epoch: 178, step: 000, train_loss : 0.00102
+epoch: 178, step: 100, train_loss : 0.00124
+epoch: 178, step: 200, train_loss : 0.00114
+epoch: 178, step: 300, train_loss : 0.00105
+epoch: 178, Accuracy : 95.06
+--------------------------------------------------
+epoch: 179, step: 000, train_loss : 0.00140
+epoch: 179, step: 100, train_loss : 0.00100
+epoch: 179, step: 200, train_loss : 0.00100
+epoch: 179, step: 300, train_loss : 0.00103
+epoch: 179, Accuracy : 95.25
+--------------------------------------------------
+epoch: 180, step: 000, train_loss : 0.00138
+epoch: 180, step: 100, train_loss : 0.00105
+epoch: 180, step: 200, train_loss : 0.00122
+epoch: 180, step: 300, train_loss : 0.00111
+epoch: 180, Accuracy : 95.25
+--------------------------------------------------
+epoch: 181, step: 000, train_loss : 0.00127
+epoch: 181, step: 100, train_loss : 0.00113
+epoch: 181, step: 200, train_loss : 0.00168
+epoch: 181, step: 300, train_loss : 0.00120
+epoch: 181, Accuracy : 95.35
+--------------------------------------------------
+epoch: 182, step: 000, train_loss : 0.00167
+epoch: 182, step: 100, train_loss : 0.00106
+epoch: 182, step: 200, train_loss : 0.00149
+epoch: 182, step: 300, train_loss : 0.00130
+epoch: 182, Accuracy : 95.29
+--------------------------------------------------
+epoch: 183, step: 000, train_loss : 0.00129
+epoch: 183, step: 100, train_loss : 0.00111
+epoch: 183, step: 200, train_loss : 0.00107
+epoch: 183, step: 300, train_loss : 0.00208
+epoch: 183, Accuracy : 95.2
+--------------------------------------------------
+epoch: 184, step: 000, train_loss : 0.00223
+epoch: 184, step: 100, train_loss : 0.00116
+epoch: 184, step: 200, train_loss : 0.00138
+epoch: 184, step: 300, train_loss : 0.00258
+epoch: 184, Accuracy : 95.35
+--------------------------------------------------
+epoch: 185, step: 000, train_loss : 0.00132
+epoch: 185, step: 100, train_loss : 0.00142
+epoch: 185, step: 200, train_loss : 0.00130
+epoch: 185, step: 300, train_loss : 0.00162
+epoch: 185, Accuracy : 95.37
+--------------------------------------------------
+epoch: 186, step: 000, train_loss : 0.00118
+epoch: 186, step: 100, train_loss : 0.00122
+epoch: 186, step: 200, train_loss : 0.00105
+epoch: 186, step: 300, train_loss : 0.00112
+epoch: 186, Accuracy : 95.34
+--------------------------------------------------
+epoch: 187, step: 000, train_loss : 0.00109
+epoch: 187, step: 100, train_loss : 0.00102
+epoch: 187, step: 200, train_loss : 0.00121
+epoch: 187, step: 300, train_loss : 0.00107
+epoch: 187, Accuracy : 95.39
+--------------------------------------------------
+epoch: 188, step: 000, train_loss : 0.00110
+epoch: 188, step: 100, train_loss : 0.00115
+epoch: 188, step: 200, train_loss : 0.00110
+epoch: 188, step: 300, train_loss : 0.00143
+epoch: 188, Accuracy : 95.34
+--------------------------------------------------
+epoch: 189, step: 000, train_loss : 0.00108
+epoch: 189, step: 100, train_loss : 0.00153
+epoch: 189, step: 200, train_loss : 0.00106
+epoch: 189, step: 300, train_loss : 0.00127
+epoch: 189, Accuracy : 95.33
+--------------------------------------------------
+epoch: 190, step: 000, train_loss : 0.00116
+epoch: 190, step: 100, train_loss : 0.00172
+epoch: 190, step: 200, train_loss : 0.00099
+epoch: 190, step: 300, train_loss : 0.00130
+epoch: 190, Accuracy : 95.34
+--------------------------------------------------
+epoch: 191, step: 000, train_loss : 0.00094
+epoch: 191, step: 100, train_loss : 0.00123
+epoch: 191, step: 200, train_loss : 0.00106
+epoch: 191, step: 300, train_loss : 0.00185
+epoch: 191, Accuracy : 95.38
+--------------------------------------------------
+epoch: 192, step: 000, train_loss : 0.00129
+epoch: 192, step: 100, train_loss : 0.00098
+epoch: 192, step: 200, train_loss : 0.00102
+epoch: 192, step: 300, train_loss : 0.00104
+epoch: 192, Accuracy : 95.42
+--------------------------------------------------
+
+epoch: 193, step: 000, train_loss : 0.00128
+epoch: 193, step: 100, train_loss : 0.00118
+epoch: 193, step: 200, train_loss : 0.00112
+epoch: 193, step: 300, train_loss : 0.00106
+epoch: 193, Accuracy : 95.41
+--------------------------------------------------
+epoch: 194, step: 000, train_loss : 0.00118
+epoch: 194, step: 100, train_loss : 0.00109
+epoch: 194, step: 200, train_loss : 0.00122
+epoch: 194, step: 300, train_loss : 0.00113
+epoch: 194, Accuracy : 95.37
+--------------------------------------------------
+epoch: 195, step: 000, train_loss : 0.00132
+epoch: 195, step: 100, train_loss : 0.00105
+epoch: 195, step: 200, train_loss : 0.00174
+epoch: 195, step: 300, train_loss : 0.00101
+epoch: 195, Accuracy : 95.38
+--------------------------------------------------
+epoch: 196, step: 000, train_loss : 0.00107
+epoch: 196, step: 100, train_loss : 0.00104
+epoch: 196, step: 200, train_loss : 0.00167
+epoch: 196, step: 300, train_loss : 0.00224
+epoch: 196, Accuracy : 95.38
+--------------------------------------------------
+epoch: 197, step: 000, train_loss : 0.00106
+epoch: 197, step: 100, train_loss : 0.00120
+epoch: 197, step: 200, train_loss : 0.00100
+epoch: 197, step: 300, train_loss : 0.00196
+epoch: 197, Accuracy : 95.38
+--------------------------------------------------
+epoch: 198, step: 000, train_loss : 0.00124
+epoch: 198, step: 100, train_loss : 0.00112
+epoch: 198, step: 200, train_loss : 0.00125
+epoch: 198, step: 300, train_loss : 0.00105
+epoch: 198, Accuracy : 95.38
+--------------------------------------------------
+epoch: 199, step: 000, train_loss : 0.00181
+epoch: 199, step: 100, train_loss : 0.00139
+epoch: 199, step: 200, train_loss : 0.00124
+epoch: 199, step: 300, train_loss : 0.00163
+epoch: 199, Accuracy : 95.37
+--------------------------------------------------
+epoch: 200, step: 000, train_loss : 0.00113
+epoch: 200, step: 100, train_loss : 0.00109
+epoch: 200, step: 200, train_loss : 0.00121
+epoch: 200, step: 300, train_loss : 0.00122
+epoch: 200, Accuracy : 95.31
+=> Best Accuracy : 95.42 at epoch 192
+
+
+# with mixup_alpha
+Configuration------------------------------------
+{'num_epochs': 200, 'lr': 0.1, 'weight_decay': 0.0005, 'print_freq': 100, 'use_mixup': True, 'mixup_alpha': 2.0, 'num_classes': 10}
+=> Creating the model
+=> loss function, optimizer and scheduler
+=> Start Training, max epochs 200
+--------------------------------------------------
+epoch: 001, step: 000, train_loss : 0.33869
+epoch: 001, step: 100, train_loss : 0.29412
+epoch: 001, step: 200, train_loss : 0.28683
+epoch: 001, step: 300, train_loss : 0.27993
+epoch: 001, Accuracy : 51.99
+--------------------------------------------------
+epoch: 002, step: 000, train_loss : 0.26513
+epoch: 002, step: 100, train_loss : 0.24204
+epoch: 002, step: 200, train_loss : 0.23710
+epoch: 002, step: 300, train_loss : 0.27975
+epoch: 002, Accuracy : 59.87
+--------------------------------------------------
+epoch: 003, step: 000, train_loss : 0.24054
+epoch: 003, step: 100, train_loss : 0.24240
+epoch: 003, step: 200, train_loss : 0.22107
+epoch: 003, step: 300, train_loss : 0.18473
+epoch: 003, Accuracy : 65.38
+--------------------------------------------------
+epoch: 004, step: 000, train_loss : 0.17603
+epoch: 004, step: 100, train_loss : 0.23333
+epoch: 004, step: 200, train_loss : 0.16410
+epoch: 004, step: 300, train_loss : 0.24351
+epoch: 004, Accuracy : 75.96
+--------------------------------------------------
+epoch: 005, step: 000, train_loss : 0.19618
+epoch: 005, step: 100, train_loss : 0.18540
+epoch: 005, step: 200, train_loss : 0.19270
+epoch: 005, step: 300, train_loss : 0.22237
+epoch: 005, Accuracy : 73.22
+--------------------------------------------------
+epoch: 006, step: 000, train_loss : 0.18323
+epoch: 006, step: 100, train_loss : 0.21531
+epoch: 006, step: 200, train_loss : 0.23355
+epoch: 006, step: 300, train_loss : 0.16896
+epoch: 006, Accuracy : 75.76
+--------------------------------------------------
+epoch: 007, step: 000, train_loss : 0.18255
+epoch: 007, step: 100, train_loss : 0.24865
+epoch: 007, step: 200, train_loss : 0.22833
+epoch: 007, step: 300, train_loss : 0.23131
+epoch: 007, Accuracy : 76.18
+--------------------------------------------------
+epoch: 008, step: 000, train_loss : 0.19859
+epoch: 008, step: 100, train_loss : 0.19112
+epoch: 008, step: 200, train_loss : 0.17653
+epoch: 008, step: 300, train_loss : 0.24835
+epoch: 008, Accuracy : 74.68
+--------------------------------------------------
+epoch: 009, step: 000, train_loss : 0.23613
+epoch: 009, step: 100, train_loss : 0.21200
+epoch: 009, step: 200, train_loss : 0.18475
+epoch: 009, step: 300, train_loss : 0.25754
+epoch: 009, Accuracy : 76.47
+--------------------------------------------------
+epoch: 010, step: 000, train_loss : 0.19976
+epoch: 010, step: 100, train_loss : 0.14303
+epoch: 010, step: 200, train_loss : 0.20369
+epoch: 010, step: 300, train_loss : 0.22513
+epoch: 010, Accuracy : 77.76
+--------------------------------------------------
+epoch: 011, step: 000, train_loss : 0.22938
+epoch: 011, step: 100, train_loss : 0.25080
+epoch: 011, step: 200, train_loss : 0.22879
+epoch: 011, step: 300, train_loss : 0.14671
+epoch: 011, Accuracy : 81.87
+--------------------------------------------------
+epoch: 012, step: 000, train_loss : 0.23349
+epoch: 012, step: 100, train_loss : 0.21554
+epoch: 012, step: 200, train_loss : 0.22824
+epoch: 012, step: 300, train_loss : 0.21363
+epoch: 012, Accuracy : 75.03
+--------------------------------------------------
+epoch: 013, step: 000, train_loss : 0.15695
+epoch: 013, step: 100, train_loss : 0.18866
+epoch: 013, step: 200, train_loss : 0.19514
+epoch: 013, step: 300, train_loss : 0.22796
+epoch: 013, Accuracy : 76.52
+--------------------------------------------------
+epoch: 014, step: 000, train_loss : 0.21325
+epoch: 014, step: 100, train_loss : 0.15445
+epoch: 014, step: 200, train_loss : 0.16877
+epoch: 014, step: 300, train_loss : 0.21010
+epoch: 014, Accuracy : 79.09
+--------------------------------------------------
+epoch: 015, step: 000, train_loss : 0.21105
+epoch: 015, step: 100, train_loss : 0.18769
+epoch: 015, step: 200, train_loss : 0.16339
+epoch: 015, step: 300, train_loss : 0.22108
+epoch: 015, Accuracy : 83.24
+--------------------------------------------------
+epoch: 016, step: 000, train_loss : 0.22352
+epoch: 016, step: 100, train_loss : 0.21547
+epoch: 016, step: 200, train_loss : 0.16031
+epoch: 016, step: 300, train_loss : 0.20063
+epoch: 016, Accuracy : 80.12
+--------------------------------------------------
+epoch: 017, step: 000, train_loss : 0.18601
+epoch: 017, step: 100, train_loss : 0.19808
+epoch: 017, step: 200, train_loss : 0.13122
+epoch: 017, step: 300, train_loss : 0.18603
+epoch: 017, Accuracy : 78.47
+--------------------------------------------------
+epoch: 018, step: 000, train_loss : 0.21575
+epoch: 018, step: 100, train_loss : 0.18918
+epoch: 018, step: 200, train_loss : 0.17376
+epoch: 018, step: 300, train_loss : 0.19024
+epoch: 018, Accuracy : 80.21
+--------------------------------------------------
+epoch: 019, step: 000, train_loss : 0.15327
+epoch: 019, step: 100, train_loss : 0.19338
+epoch: 019, step: 200, train_loss : 0.22297
+epoch: 019, step: 300, train_loss : 0.23140
+epoch: 019, Accuracy : 78.7
+--------------------------------------------------
+epoch: 020, step: 000, train_loss : 0.23069
+epoch: 020, step: 100, train_loss : 0.17766
+epoch: 020, step: 200, train_loss : 0.14803
+epoch: 020, step: 300, train_loss : 0.18616
+epoch: 020, Accuracy : 80.22
+--------------------------------------------------
+epoch: 021, step: 000, train_loss : 0.18634
+epoch: 021, step: 100, train_loss : 0.19643
+epoch: 021, step: 200, train_loss : 0.23635
+epoch: 021, step: 300, train_loss : 0.19477
+epoch: 021, Accuracy : 81.37
+--------------------------------------------------
+epoch: 022, step: 000, train_loss : 0.20799
+epoch: 022, step: 100, train_loss : 0.20363
+epoch: 022, step: 200, train_loss : 0.24287
+epoch: 022, step: 300, train_loss : 0.13416
+epoch: 022, Accuracy : 85.13
+--------------------------------------------------
+epoch: 023, step: 000, train_loss : 0.14097
+epoch: 023, step: 100, train_loss : 0.11953
+epoch: 023, step: 200, train_loss : 0.18437
+epoch: 023, step: 300, train_loss : 0.19300
+epoch: 023, Accuracy : 86.33
+--------------------------------------------------
+epoch: 024, step: 000, train_loss : 0.17653
+epoch: 024, step: 100, train_loss : 0.18011
+epoch: 024, step: 200, train_loss : 0.23816
+epoch: 024, step: 300, train_loss : 0.14192
+epoch: 024, Accuracy : 78.62
+--------------------------------------------------
+epoch: 025, step: 000, train_loss : 0.22497
+epoch: 025, step: 100, train_loss : 0.20316
+epoch: 025, step: 200, train_loss : 0.19141
+epoch: 025, step: 300, train_loss : 0.17338
+epoch: 025, Accuracy : 78.14
+--------------------------------------------------
+epoch: 026, step: 000, train_loss : 0.14325
+epoch: 026, step: 100, train_loss : 0.16419
+epoch: 026, step: 200, train_loss : 0.19095
+epoch: 026, step: 300, train_loss : 0.18560
+epoch: 026, Accuracy : 82.54
+--------------------------------------------------
+epoch: 027, step: 000, train_loss : 0.19574
+epoch: 027, step: 100, train_loss : 0.21522
+epoch: 027, step: 200, train_loss : 0.11893
+epoch: 027, step: 300, train_loss : 0.20692
+epoch: 027, Accuracy : 82.94
+--------------------------------------------------
+epoch: 028, step: 000, train_loss : 0.21679
+epoch: 028, step: 100, train_loss : 0.20529
+epoch: 028, step: 200, train_loss : 0.18811
+epoch: 028, step: 300, train_loss : 0.20593
+epoch: 028, Accuracy : 85.35
+--------------------------------------------------
+epoch: 029, step: 000, train_loss : 0.20712
+epoch: 029, step: 100, train_loss : 0.20314
+epoch: 029, step: 200, train_loss : 0.15224
+epoch: 029, step: 300, train_loss : 0.09954
+epoch: 029, Accuracy : 84.49
+--------------------------------------------------
+epoch: 030, step: 000, train_loss : 0.21665
+epoch: 030, step: 100, train_loss : 0.17668
+epoch: 030, step: 200, train_loss : 0.22748
+epoch: 030, step: 300, train_loss : 0.22146
+epoch: 030, Accuracy : 85.19
+--------------------------------------------------
+epoch: 031, step: 000, train_loss : 0.22491
+epoch: 031, step: 100, train_loss : 0.13639
+epoch: 031, step: 200, train_loss : 0.19182
+epoch: 031, step: 300, train_loss : 0.17717
+epoch: 031, Accuracy : 84.8
+--------------------------------------------------
+
+epoch: 032, step: 000, train_loss : 0.22405
+epoch: 032, step: 100, train_loss : 0.16315
+epoch: 032, step: 200, train_loss : 0.23473
+epoch: 032, step: 300, train_loss : 0.21848
+epoch: 032, Accuracy : 82.95
+--------------------------------------------------
+epoch: 033, step: 000, train_loss : 0.14104
+epoch: 033, step: 100, train_loss : 0.22109
+epoch: 033, step: 200, train_loss : 0.19135
+epoch: 033, step: 300, train_loss : 0.21940
+epoch: 033, Accuracy : 82.12
+--------------------------------------------------
+epoch: 034, step: 000, train_loss : 0.19336
+epoch: 034, step: 100, train_loss : 0.20701
+epoch: 034, step: 200, train_loss : 0.20307
+epoch: 034, step: 300, train_loss : 0.20972
+epoch: 034, Accuracy : 85.71
+--------------------------------------------------
+epoch: 035, step: 000, train_loss : 0.19642
+epoch: 035, step: 100, train_loss : 0.21166
+epoch: 035, step: 200, train_loss : 0.17554
+epoch: 035, step: 300, train_loss : 0.16549
+epoch: 035, Accuracy : 77.2
+--------------------------------------------------
+epoch: 036, step: 000, train_loss : 0.16580
+epoch: 036, step: 100, train_loss : 0.21727
+epoch: 036, step: 200, train_loss : 0.23300
+epoch: 036, step: 300, train_loss : 0.21791
+epoch: 036, Accuracy : 83.2
+--------------------------------------------------
+epoch: 037, step: 000, train_loss : 0.14282
+epoch: 037, step: 100, train_loss : 0.23676
+epoch: 037, step: 200, train_loss : 0.13893
+epoch: 037, step: 300, train_loss : 0.17973
+epoch: 037, Accuracy : 82.18
+--------------------------------------------------
+epoch: 038, step: 000, train_loss : 0.16827
+epoch: 038, step: 100, train_loss : 0.21668
+epoch: 038, step: 200, train_loss : 0.11557
+epoch: 038, step: 300, train_loss : 0.15527
+epoch: 038, Accuracy : 83.34
+--------------------------------------------------
+epoch: 039, step: 000, train_loss : 0.25056
+epoch: 039, step: 100, train_loss : 0.23290
+epoch: 039, step: 200, train_loss : 0.22492
+epoch: 039, step: 300, train_loss : 0.21944
+epoch: 039, Accuracy : 85.64
+--------------------------------------------------
+epoch: 040, step: 000, train_loss : 0.21905
+epoch: 040, step: 100, train_loss : 0.21254
+epoch: 040, step: 200, train_loss : 0.20558
+epoch: 040, step: 300, train_loss : 0.22729
+epoch: 040, Accuracy : 86.41
+--------------------------------------------------
+epoch: 041, step: 000, train_loss : 0.17115
+epoch: 041, step: 100, train_loss : 0.19991
+epoch: 041, step: 200, train_loss : 0.15629
+epoch: 041, step: 300, train_loss : 0.18106
+epoch: 041, Accuracy : 83.33
+--------------------------------------------------
+epoch: 042, step: 000, train_loss : 0.19770
+epoch: 042, step: 100, train_loss : 0.15372
+epoch: 042, step: 200, train_loss : 0.23733
+epoch: 042, step: 300, train_loss : 0.17427
+epoch: 042, Accuracy : 85.02
+--------------------------------------------------
+epoch: 043, step: 000, train_loss : 0.18774
+epoch: 043, step: 100, train_loss : 0.15188
+epoch: 043, step: 200, train_loss : 0.12543
+epoch: 043, step: 300, train_loss : 0.14452
+epoch: 043, Accuracy : 84.81
+--------------------------------------------------
+epoch: 044, step: 000, train_loss : 0.21763
+epoch: 044, step: 100, train_loss : 0.12769
+epoch: 044, step: 200, train_loss : 0.19240
+epoch: 044, step: 300, train_loss : 0.21234
+epoch: 044, Accuracy : 86.5
+--------------------------------------------------
+epoch: 045, step: 000, train_loss : 0.24391
+epoch: 045, step: 100, train_loss : 0.22494
+epoch: 045, step: 200, train_loss : 0.20868
+epoch: 045, step: 300, train_loss : 0.20244
+epoch: 045, Accuracy : 84.91
+--------------------------------------------------
+epoch: 046, step: 000, train_loss : 0.18796
+epoch: 046, step: 100, train_loss : 0.23725
+epoch: 046, step: 200, train_loss : 0.18591
+epoch: 046, step: 300, train_loss : 0.15110
+epoch: 046, Accuracy : 81.49
+--------------------------------------------------
+epoch: 047, step: 000, train_loss : 0.17898
+epoch: 047, step: 100, train_loss : 0.20676
+epoch: 047, step: 200, train_loss : 0.16993
+epoch: 047, step: 300, train_loss : 0.19566
+epoch: 047, Accuracy : 84.69
+--------------------------------------------------
+epoch: 048, step: 000, train_loss : 0.17297
+epoch: 048, step: 100, train_loss : 0.20942
+epoch: 048, step: 200, train_loss : 0.20253
+epoch: 048, step: 300, train_loss : 0.21600
+epoch: 048, Accuracy : 77.45
+--------------------------------------------------
+epoch: 049, step: 000, train_loss : 0.22421
+epoch: 049, step: 100, train_loss : 0.21247
+epoch: 049, step: 200, train_loss : 0.17937
+epoch: 049, step: 300, train_loss : 0.13881
+epoch: 049, Accuracy : 80.58
+--------------------------------------------------
+epoch: 050, step: 000, train_loss : 0.18629
+epoch: 050, step: 100, train_loss : 0.17984
+epoch: 050, step: 200, train_loss : 0.16863
+epoch: 050, step: 300, train_loss : 0.17094
+epoch: 050, Accuracy : 85.48
+--------------------------------------------------
+epoch: 051, step: 000, train_loss : 0.21538
+epoch: 051, step: 100, train_loss : 0.16527
+epoch: 051, step: 200, train_loss : 0.14525
+epoch: 051, step: 300, train_loss : 0.11641
+epoch: 051, Accuracy : 78.64
+--------------------------------------------------
+epoch: 052, step: 000, train_loss : 0.18361
+epoch: 052, step: 100, train_loss : 0.19029
+epoch: 052, step: 200, train_loss : 0.09963
+epoch: 052, step: 300, train_loss : 0.16849
+epoch: 052, Accuracy : 85.48
+--------------------------------------------------
+epoch: 053, step: 000, train_loss : 0.15772
+epoch: 053, step: 100, train_loss : 0.21296
+epoch: 053, step: 200, train_loss : 0.21079
+epoch: 053, step: 300, train_loss : 0.19663
+epoch: 053, Accuracy : 84.11
+--------------------------------------------------
+epoch: 054, step: 000, train_loss : 0.15970
+epoch: 054, step: 100, train_loss : 0.18566
+epoch: 054, step: 200, train_loss : 0.25387
+epoch: 054, step: 300, train_loss : 0.18900
+epoch: 054, Accuracy : 85.96
+--------------------------------------------------
+epoch: 055, step: 000, train_loss : 0.20609
+epoch: 055, step: 100, train_loss : 0.23892
+epoch: 055, step: 200, train_loss : 0.18054
+epoch: 055, step: 300, train_loss : 0.22325
+epoch: 055, Accuracy : 81.69
+--------------------------------------------------
+epoch: 056, step: 000, train_loss : 0.20094
+epoch: 056, step: 100, train_loss : 0.20598
+epoch: 056, step: 200, train_loss : 0.18236
+epoch: 056, step: 300, train_loss : 0.18654
+epoch: 056, Accuracy : 83.03
+--------------------------------------------------
+epoch: 057, step: 000, train_loss : 0.16697
+epoch: 057, step: 100, train_loss : 0.19468
+epoch: 057, step: 200, train_loss : 0.20678
+epoch: 057, step: 300, train_loss : 0.19809
+epoch: 057, Accuracy : 85.72
+--------------------------------------------------
+epoch: 058, step: 000, train_loss : 0.12842
+epoch: 058, step: 100, train_loss : 0.19338
+epoch: 058, step: 200, train_loss : 0.19044
+epoch: 058, step: 300, train_loss : 0.17788
+epoch: 058, Accuracy : 75.55
+--------------------------------------------------
+epoch: 059, step: 000, train_loss : 0.22020
+epoch: 059, step: 100, train_loss : 0.13299
+epoch: 059, step: 200, train_loss : 0.18651
+epoch: 059, step: 300, train_loss : 0.20303
+epoch: 059, Accuracy : 84.08
+--------------------------------------------------
+epoch: 060, step: 000, train_loss : 0.23512
+epoch: 060, step: 100, train_loss : 0.19302
+epoch: 060, step: 200, train_loss : 0.23753
+epoch: 060, step: 300, train_loss : 0.19848
+epoch: 060, Accuracy : 83.97
+--------------------------------------------------
+epoch: 061, step: 000, train_loss : 0.14336
+epoch: 061, step: 100, train_loss : 0.17472
+epoch: 061, step: 200, train_loss : 0.20241
+epoch: 061, step: 300, train_loss : 0.22414
+epoch: 061, Accuracy : 84.14
+--------------------------------------------------
+epoch: 062, step: 000, train_loss : 0.20768
+epoch: 062, step: 100, train_loss : 0.17493
+epoch: 062, step: 200, train_loss : 0.20946
+epoch: 062, step: 300, train_loss : 0.16983
+epoch: 062, Accuracy : 84.91
+--------------------------------------------------
+epoch: 063, step: 000, train_loss : 0.19775
+epoch: 063, step: 100, train_loss : 0.21266
+epoch: 063, step: 200, train_loss : 0.18267
+epoch: 063, step: 300, train_loss : 0.19006
+epoch: 063, Accuracy : 85.24
+--------------------------------------------------
+epoch: 064, step: 000, train_loss : 0.11870
+
+epoch: 064, step: 100, train_loss : 0.17687
+epoch: 064, step: 200, train_loss : 0.19131
+epoch: 064, step: 300, train_loss : 0.18138
+epoch: 064, Accuracy : 82.73
+--------------------------------------------------
+epoch: 065, step: 000, train_loss : 0.12261
+epoch: 065, step: 100, train_loss : 0.18375
+epoch: 065, step: 200, train_loss : 0.16208
+epoch: 065, step: 300, train_loss : 0.24302
+epoch: 065, Accuracy : 83.69
+--------------------------------------------------
+epoch: 066, step: 000, train_loss : 0.22150
+epoch: 066, step: 100, train_loss : 0.17578
+epoch: 066, step: 200, train_loss : 0.19038
+epoch: 066, step: 300, train_loss : 0.14587
+epoch: 066, Accuracy : 83.62
+--------------------------------------------------
+epoch: 067, step: 000, train_loss : 0.18621
+epoch: 067, step: 100, train_loss : 0.13823
+epoch: 067, step: 200, train_loss : 0.18749
+epoch: 067, step: 300, train_loss : 0.18750
+epoch: 067, Accuracy : 86.08
+--------------------------------------------------
+epoch: 068, step: 000, train_loss : 0.18454
+epoch: 068, step: 100, train_loss : 0.19958
+epoch: 068, step: 200, train_loss : 0.19817
+epoch: 068, step: 300, train_loss : 0.14679
+epoch: 068, Accuracy : 82.26
+--------------------------------------------------
+epoch: 069, step: 000, train_loss : 0.19479
+epoch: 069, step: 100, train_loss : 0.21601
+epoch: 069, step: 200, train_loss : 0.12171
+epoch: 069, step: 300, train_loss : 0.18510
+epoch: 069, Accuracy : 86.57
+--------------------------------------------------
+epoch: 070, step: 000, train_loss : 0.17582
+epoch: 070, step: 100, train_loss : 0.23762
+epoch: 070, step: 200, train_loss : 0.19118
+epoch: 070, step: 300, train_loss : 0.12229
+epoch: 070, Accuracy : 86.16
+--------------------------------------------------
+epoch: 071, step: 000, train_loss : 0.20205
+epoch: 071, step: 100, train_loss : 0.17646
+epoch: 071, step: 200, train_loss : 0.18565
+epoch: 071, step: 300, train_loss : 0.18182
+epoch: 071, Accuracy : 84.24
+--------------------------------------------------
+epoch: 072, step: 000, train_loss : 0.23749
+epoch: 072, step: 100, train_loss : 0.20407
+epoch: 072, step: 200, train_loss : 0.12324
+epoch: 072, step: 300, train_loss : 0.18756
+epoch: 072, Accuracy : 86.14
+--------------------------------------------------
+epoch: 073, step: 000, train_loss : 0.16104
+epoch: 073, step: 100, train_loss : 0.15169
+epoch: 073, step: 200, train_loss : 0.19711
+epoch: 073, step: 300, train_loss : 0.15241
+epoch: 073, Accuracy : 81.82
+--------------------------------------------------
+epoch: 074, step: 000, train_loss : 0.19710
+epoch: 074, step: 100, train_loss : 0.09325
+epoch: 074, step: 200, train_loss : 0.19975
+epoch: 074, step: 300, train_loss : 0.20289
+epoch: 074, Accuracy : 84.62
+--------------------------------------------------
+epoch: 075, step: 000, train_loss : 0.21992
+epoch: 075, step: 100, train_loss : 0.19175
+epoch: 075, step: 200, train_loss : 0.22803
+epoch: 075, step: 300, train_loss : 0.22633
+epoch: 075, Accuracy : 85.17
+--------------------------------------------------
+epoch: 076, step: 000, train_loss : 0.17870
+epoch: 076, step: 100, train_loss : 0.19226
+epoch: 076, step: 200, train_loss : 0.20604
+epoch: 076, step: 300, train_loss : 0.21165
+epoch: 076, Accuracy : 87.75
+--------------------------------------------------
+epoch: 077, step: 000, train_loss : 0.17310
+epoch: 077, step: 100, train_loss : 0.24560
+epoch: 077, step: 200, train_loss : 0.23666
+epoch: 077, step: 300, train_loss : 0.22460
+epoch: 077, Accuracy : 87.44
+--------------------------------------------------
+epoch: 078, step: 000, train_loss : 0.22799
+epoch: 078, step: 100, train_loss : 0.12815
+epoch: 078, step: 200, train_loss : 0.22012
+epoch: 078, step: 300, train_loss : 0.16185
+epoch: 078, Accuracy : 88.04
+--------------------------------------------------
+epoch: 079, step: 000, train_loss : 0.18878
+epoch: 079, step: 100, train_loss : 0.20121
+epoch: 079, step: 200, train_loss : 0.21050
+epoch: 079, step: 300, train_loss : 0.14044
+epoch: 079, Accuracy : 87.89
+--------------------------------------------------
+epoch: 080, step: 000, train_loss : 0.19840
+epoch: 080, step: 100, train_loss : 0.21477
+epoch: 080, step: 200, train_loss : 0.13727
+epoch: 080, step: 300, train_loss : 0.23164
+epoch: 080, Accuracy : 83.48
+--------------------------------------------------
+epoch: 081, step: 000, train_loss : 0.18352
+epoch: 081, step: 100, train_loss : 0.08995
+epoch: 081, step: 200, train_loss : 0.11672
+epoch: 081, step: 300, train_loss : 0.13059
+epoch: 081, Accuracy : 82.49
+--------------------------------------------------
+epoch: 082, step: 000, train_loss : 0.16301
+epoch: 082, step: 100, train_loss : 0.19177
+epoch: 082, step: 200, train_loss : 0.13956
+epoch: 082, step: 300, train_loss : 0.19809
+epoch: 082, Accuracy : 84.76
+--------------------------------------------------
+epoch: 083, step: 000, train_loss : 0.22797
+epoch: 083, step: 100, train_loss : 0.21155
+epoch: 083, step: 200, train_loss : 0.19333
+epoch: 083, step: 300, train_loss : 0.21308
+epoch: 083, Accuracy : 83.35
+--------------------------------------------------
+epoch: 084, step: 000, train_loss : 0.22986
+epoch: 084, step: 100, train_loss : 0.19522
+epoch: 084, step: 200, train_loss : 0.13342
+epoch: 084, step: 300, train_loss : 0.16064
+epoch: 084, Accuracy : 88.56
+--------------------------------------------------
+epoch: 085, step: 000, train_loss : 0.11100
+epoch: 085, step: 100, train_loss : 0.17760
+epoch: 085, step: 200, train_loss : 0.21158
+epoch: 085, step: 300, train_loss : 0.23939
+epoch: 085, Accuracy : 84.08
+--------------------------------------------------
+epoch: 086, step: 000, train_loss : 0.21629
+epoch: 086, step: 100, train_loss : 0.20181
+epoch: 086, step: 200, train_loss : 0.15407
+epoch: 086, step: 300, train_loss : 0.17318
+epoch: 086, Accuracy : 85.82
+--------------------------------------------------
+epoch: 087, step: 000, train_loss : 0.21380
+epoch: 087, step: 100, train_loss : 0.20362
+epoch: 087, step: 200, train_loss : 0.18361
+epoch: 087, step: 300, train_loss : 0.12118
+epoch: 087, Accuracy : 87.88
+--------------------------------------------------
+epoch: 088, step: 000, train_loss : 0.14382
+epoch: 088, step: 100, train_loss : 0.15518
+epoch: 088, step: 200, train_loss : 0.20213
+epoch: 088, step: 300, train_loss : 0.17999
+epoch: 088, Accuracy : 88.39
+--------------------------------------------------
+epoch: 089, step: 000, train_loss : 0.20859
+epoch: 089, step: 100, train_loss : 0.22691
+epoch: 089, step: 200, train_loss : 0.15976
+epoch: 089, step: 300, train_loss : 0.15795
+epoch: 089, Accuracy : 85.79
+--------------------------------------------------
+epoch: 090, step: 000, train_loss : 0.19337
+epoch: 090, step: 100, train_loss : 0.20662
+epoch: 090, step: 200, train_loss : 0.19109
+epoch: 090, step: 300, train_loss : 0.19943
+epoch: 090, Accuracy : 86.48
+--------------------------------------------------
+epoch: 091, step: 000, train_loss : 0.16828
+epoch: 091, step: 100, train_loss : 0.14876
+epoch: 091, step: 200, train_loss : 0.20250
+epoch: 091, step: 300, train_loss : 0.11713
+epoch: 091, Accuracy : 86.64
+--------------------------------------------------
+epoch: 092, step: 000, train_loss : 0.22574
+epoch: 092, step: 100, train_loss : 0.12632
+epoch: 092, step: 200, train_loss : 0.21866
+epoch: 092, step: 300, train_loss : 0.20419
+epoch: 092, Accuracy : 87.83
+--------------------------------------------------
+epoch: 093, step: 000, train_loss : 0.15601
+epoch: 093, step: 100, train_loss : 0.22160
+epoch: 093, step: 200, train_loss : 0.17601
+epoch: 093, step: 300, train_loss : 0.21038
+epoch: 093, Accuracy : 89.05
+--------------------------------------------------
+epoch: 094, step: 000, train_loss : 0.17301
+epoch: 094, step: 100, train_loss : 0.16747
+epoch: 094, step: 200, train_loss : 0.17870
+epoch: 094, step: 300, train_loss : 0.18510
+epoch: 094, Accuracy : 89.17
+--------------------------------------------------
+epoch: 095, step: 000, train_loss : 0.19852
+epoch: 095, step: 100, train_loss : 0.16645
+epoch: 095, step: 200, train_loss : 0.17260
+epoch: 095, step: 300, train_loss : 0.18852
+epoch: 095, Accuracy : 87.25
+--------------------------------------------------
+epoch: 096, step: 000, train_loss : 0.21008
+epoch: 096, step: 100, train_loss : 0.21571
+
+epoch: 096, step: 200, train_loss : 0.19855
+epoch: 096, step: 300, train_loss : 0.20495
+epoch: 096, Accuracy : 85.2
+--------------------------------------------------
+epoch: 097, step: 000, train_loss : 0.18268
+epoch: 097, step: 100, train_loss : 0.17554
+epoch: 097, step: 200, train_loss : 0.12059
+epoch: 097, step: 300, train_loss : 0.18803
+epoch: 097, Accuracy : 89.68
+--------------------------------------------------
+epoch: 098, step: 000, train_loss : 0.21731
+epoch: 098, step: 100, train_loss : 0.19054
+epoch: 098, step: 200, train_loss : 0.21970
+epoch: 098, step: 300, train_loss : 0.13742
+epoch: 098, Accuracy : 90.18
+--------------------------------------------------
+epoch: 099, step: 000, train_loss : 0.17843
+epoch: 099, step: 100, train_loss : 0.16933
+epoch: 099, step: 200, train_loss : 0.19901
+epoch: 099, step: 300, train_loss : 0.09130
+epoch: 099, Accuracy : 89.14
+--------------------------------------------------
+epoch: 100, step: 000, train_loss : 0.18517
+epoch: 100, step: 100, train_loss : 0.21033
+epoch: 100, step: 200, train_loss : 0.14381
+epoch: 100, step: 300, train_loss : 0.13425
+epoch: 100, Accuracy : 87.75
+--------------------------------------------------
+epoch: 101, step: 000, train_loss : 0.09639
+epoch: 101, step: 100, train_loss : 0.12759
+epoch: 101, step: 200, train_loss : 0.17052
+epoch: 101, step: 300, train_loss : 0.13182
+epoch: 101, Accuracy : 89.64
+--------------------------------------------------
+epoch: 102, step: 000, train_loss : 0.14380
+epoch: 102, step: 100, train_loss : 0.16045
+epoch: 102, step: 200, train_loss : 0.17350
+epoch: 102, step: 300, train_loss : 0.20050
+epoch: 102, Accuracy : 89.7
+--------------------------------------------------
+epoch: 103, step: 000, train_loss : 0.08887
+epoch: 103, step: 100, train_loss : 0.17684
+epoch: 103, step: 200, train_loss : 0.19114
+epoch: 103, step: 300, train_loss : 0.17947
+epoch: 103, Accuracy : 85.22
+--------------------------------------------------
+epoch: 104, step: 000, train_loss : 0.16110
+epoch: 104, step: 100, train_loss : 0.08090
+epoch: 104, step: 200, train_loss : 0.19270
+epoch: 104, step: 300, train_loss : 0.20221
+epoch: 104, Accuracy : 89.87
+--------------------------------------------------
+epoch: 105, step: 000, train_loss : 0.19030
+epoch: 105, step: 100, train_loss : 0.17485
+epoch: 105, step: 200, train_loss : 0.18694
+epoch: 105, step: 300, train_loss : 0.19548
+epoch: 105, Accuracy : 89.28
+--------------------------------------------------
+epoch: 106, step: 000, train_loss : 0.15001
+epoch: 106, step: 100, train_loss : 0.22052
+epoch: 106, step: 200, train_loss : 0.18598
+epoch: 106, step: 300, train_loss : 0.22414
+epoch: 106, Accuracy : 89.03
+--------------------------------------------------
+epoch: 107, step: 000, train_loss : 0.14566
+epoch: 107, step: 100, train_loss : 0.19097
+epoch: 107, step: 200, train_loss : 0.22577
+epoch: 107, step: 300, train_loss : 0.22685
+epoch: 107, Accuracy : 88.84
+--------------------------------------------------
+epoch: 108, step: 000, train_loss : 0.17113
+epoch: 108, step: 100, train_loss : 0.22474
+epoch: 108, step: 200, train_loss : 0.21236
+epoch: 108, step: 300, train_loss : 0.17126
+epoch: 108, Accuracy : 88.69
+--------------------------------------------------
+epoch: 109, step: 000, train_loss : 0.18579
+epoch: 109, step: 100, train_loss : 0.17320
+epoch: 109, step: 200, train_loss : 0.19625
+epoch: 109, step: 300, train_loss : 0.16766
+epoch: 109, Accuracy : 91.53
+--------------------------------------------------
+epoch: 110, step: 000, train_loss : 0.16506
+epoch: 110, step: 100, train_loss : 0.22165
+epoch: 110, step: 200, train_loss : 0.13093
+epoch: 110, step: 300, train_loss : 0.20833
+epoch: 110, Accuracy : 88.36
+--------------------------------------------------
+epoch: 111, step: 000, train_loss : 0.17975
+epoch: 111, step: 100, train_loss : 0.15246
+epoch: 111, step: 200, train_loss : 0.17544
+epoch: 111, step: 300, train_loss : 0.22195
+epoch: 111, Accuracy : 89.8
+--------------------------------------------------
+epoch: 112, step: 000, train_loss : 0.18430
+epoch: 112, step: 100, train_loss : 0.18516
+epoch: 112, step: 200, train_loss : 0.17410
+epoch: 112, step: 300, train_loss : 0.16081
+epoch: 112, Accuracy : 89.35
+--------------------------------------------------
+epoch: 113, step: 000, train_loss : 0.18242
+epoch: 113, step: 100, train_loss : 0.22374
+epoch: 113, step: 200, train_loss : 0.17108
+epoch: 113, step: 300, train_loss : 0.12591
+epoch: 113, Accuracy : 88.78
+--------------------------------------------------
+epoch: 114, step: 000, train_loss : 0.19348
+epoch: 114, step: 100, train_loss : 0.20035
+epoch: 114, step: 200, train_loss : 0.17206
+epoch: 114, step: 300, train_loss : 0.14718
+epoch: 114, Accuracy : 90.09
+--------------------------------------------------
+epoch: 115, step: 000, train_loss : 0.21132
+epoch: 115, step: 100, train_loss : 0.18304
+epoch: 115, step: 200, train_loss : 0.11980
+epoch: 115, step: 300, train_loss : 0.17488
+epoch: 115, Accuracy : 84.03
+--------------------------------------------------
+epoch: 116, step: 000, train_loss : 0.15137
+epoch: 116, step: 100, train_loss : 0.21767
+epoch: 116, step: 200, train_loss : 0.15502
+epoch: 116, step: 300, train_loss : 0.18859
+epoch: 116, Accuracy : 88.54
+--------------------------------------------------
+epoch: 117, step: 000, train_loss : 0.18411
+epoch: 117, step: 100, train_loss : 0.15770
+epoch: 117, step: 200, train_loss : 0.09576
+epoch: 117, step: 300, train_loss : 0.14335
+epoch: 117, Accuracy : 91.39
+--------------------------------------------------
+epoch: 118, step: 000, train_loss : 0.19020
+epoch: 118, step: 100, train_loss : 0.14063
+epoch: 118, step: 200, train_loss : 0.10789
+epoch: 118, step: 300, train_loss : 0.22442
+epoch: 118, Accuracy : 89.79
+--------------------------------------------------
+epoch: 119, step: 000, train_loss : 0.17638
+epoch: 119, step: 100, train_loss : 0.17131
+epoch: 119, step: 200, train_loss : 0.19455
+epoch: 119, step: 300, train_loss : 0.19059
+epoch: 119, Accuracy : 90.37
+--------------------------------------------------
+epoch: 120, step: 000, train_loss : 0.21643
+epoch: 120, step: 100, train_loss : 0.14685
+epoch: 120, step: 200, train_loss : 0.18752
+epoch: 120, step: 300, train_loss : 0.16397
+epoch: 120, Accuracy : 90.45
+--------------------------------------------------
+epoch: 121, step: 000, train_loss : 0.18483
+epoch: 121, step: 100, train_loss : 0.18518
+epoch: 121, step: 200, train_loss : 0.20739
+epoch: 121, step: 300, train_loss : 0.18786
+epoch: 121, Accuracy : 90.73
+--------------------------------------------------
+epoch: 122, step: 000, train_loss : 0.12419
+epoch: 122, step: 100, train_loss : 0.15201
+epoch: 122, step: 200, train_loss : 0.20978
+epoch: 122, step: 300, train_loss : 0.18228
+epoch: 122, Accuracy : 90.89
+--------------------------------------------------
+epoch: 123, step: 000, train_loss : 0.13427
+epoch: 123, step: 100, train_loss : 0.09042
+epoch: 123, step: 200, train_loss : 0.15162
+epoch: 123, step: 300, train_loss : 0.17419
+epoch: 123, Accuracy : 90.49
+--------------------------------------------------
+epoch: 124, step: 000, train_loss : 0.13300
+epoch: 124, step: 100, train_loss : 0.17164
+epoch: 124, step: 200, train_loss : 0.12366
+epoch: 124, step: 300, train_loss : 0.22347
+epoch: 124, Accuracy : 92.1
+--------------------------------------------------
+epoch: 125, step: 000, train_loss : 0.12026
+epoch: 125, step: 100, train_loss : 0.19028
+epoch: 125, step: 200, train_loss : 0.18873
+epoch: 125, step: 300, train_loss : 0.17778
+epoch: 125, Accuracy : 90.04
+--------------------------------------------------
+epoch: 126, step: 000, train_loss : 0.21415
+epoch: 126, step: 100, train_loss : 0.15157
+epoch: 126, step: 200, train_loss : 0.17749
+epoch: 126, step: 300, train_loss : 0.16578
+epoch: 126, Accuracy : 91.33
+--------------------------------------------------
+epoch: 127, step: 000, train_loss : 0.15378
+epoch: 127, step: 100, train_loss : 0.13325
+epoch: 127, step: 200, train_loss : 0.16750
+epoch: 127, step: 300, train_loss : 0.17360
+epoch: 127, Accuracy : 91.62
+--------------------------------------------------
+epoch: 128, step: 000, train_loss : 0.16751
+epoch: 128, step: 100, train_loss : 0.21170
+epoch: 128, step: 200, train_loss : 0.16985
+
+epoch: 128, step: 300, train_loss : 0.16329
+epoch: 128, Accuracy : 86.18
+--------------------------------------------------
+epoch: 129, step: 000, train_loss : 0.15833
+epoch: 129, step: 100, train_loss : 0.17170
+epoch: 129, step: 200, train_loss : 0.18122
+epoch: 129, step: 300, train_loss : 0.14524
+epoch: 129, Accuracy : 91.86
+--------------------------------------------------
+epoch: 130, step: 000, train_loss : 0.19396
+epoch: 130, step: 100, train_loss : 0.20616
+epoch: 130, step: 200, train_loss : 0.10050
+epoch: 130, step: 300, train_loss : 0.09749
+epoch: 130, Accuracy : 92.33
+--------------------------------------------------
+epoch: 131, step: 000, train_loss : 0.13891
+epoch: 131, step: 100, train_loss : 0.16282
+epoch: 131, step: 200, train_loss : 0.20716
+epoch: 131, step: 300, train_loss : 0.19124
+epoch: 131, Accuracy : 90.87
+--------------------------------------------------
+epoch: 132, step: 000, train_loss : 0.19832
+epoch: 132, step: 100, train_loss : 0.16277
+epoch: 132, step: 200, train_loss : 0.20932
+epoch: 132, step: 300, train_loss : 0.14315
+epoch: 132, Accuracy : 90.95
+--------------------------------------------------
+epoch: 133, step: 000, train_loss : 0.12895
+epoch: 133, step: 100, train_loss : 0.09653
+epoch: 133, step: 200, train_loss : 0.17015
+epoch: 133, step: 300, train_loss : 0.15670
+epoch: 133, Accuracy : 93.04
+--------------------------------------------------
+epoch: 134, step: 000, train_loss : 0.15897
+epoch: 134, step: 100, train_loss : 0.16695
+epoch: 134, step: 200, train_loss : 0.09541
+epoch: 134, step: 300, train_loss : 0.14685
+epoch: 134, Accuracy : 88.32
+--------------------------------------------------
+epoch: 135, step: 000, train_loss : 0.16203
+epoch: 135, step: 100, train_loss : 0.16529
+epoch: 135, step: 200, train_loss : 0.16378
+epoch: 135, step: 300, train_loss : 0.18085
+epoch: 135, Accuracy : 92.16
+--------------------------------------------------
+epoch: 136, step: 000, train_loss : 0.20328
+epoch: 136, step: 100, train_loss : 0.17984
+epoch: 136, step: 200, train_loss : 0.16934
+epoch: 136, step: 300, train_loss : 0.16215
+epoch: 136, Accuracy : 91.88
+--------------------------------------------------
+epoch: 137, step: 000, train_loss : 0.16933
+epoch: 137, step: 100, train_loss : 0.15909
+epoch: 137, step: 200, train_loss : 0.17830
+epoch: 137, step: 300, train_loss : 0.18481
+epoch: 137, Accuracy : 92.67
+--------------------------------------------------
+epoch: 138, step: 000, train_loss : 0.18109
+epoch: 138, step: 100, train_loss : 0.11498
+epoch: 138, step: 200, train_loss : 0.14828
+epoch: 138, step: 300, train_loss : 0.16036
+epoch: 138, Accuracy : 91.39
+--------------------------------------------------
+epoch: 139, step: 000, train_loss : 0.16910
+epoch: 139, step: 100, train_loss : 0.20307
+epoch: 139, step: 200, train_loss : 0.13209
+epoch: 139, step: 300, train_loss : 0.16858
+epoch: 139, Accuracy : 90.59
+--------------------------------------------------
+epoch: 140, step: 000, train_loss : 0.17205
+epoch: 140, step: 100, train_loss : 0.18082
+epoch: 140, step: 200, train_loss : 0.18019
+epoch: 140, step: 300, train_loss : 0.09704
+epoch: 140, Accuracy : 93.03
+--------------------------------------------------
+epoch: 141, step: 000, train_loss : 0.18142
+epoch: 141, step: 100, train_loss : 0.09148
+epoch: 141, step: 200, train_loss : 0.12393
+epoch: 141, step: 300, train_loss : 0.16865
+epoch: 141, Accuracy : 92.09
+--------------------------------------------------
+epoch: 142, step: 000, train_loss : 0.13849
+epoch: 142, step: 100, train_loss : 0.20713
+epoch: 142, step: 200, train_loss : 0.17247
+epoch: 142, step: 300, train_loss : 0.15694
+epoch: 142, Accuracy : 91.94
+--------------------------------------------------
+epoch: 143, step: 000, train_loss : 0.16010
+epoch: 143, step: 100, train_loss : 0.05656
+epoch: 143, step: 200, train_loss : 0.20321
+epoch: 143, step: 300, train_loss : 0.21263
+epoch: 143, Accuracy : 93.03
+--------------------------------------------------
+epoch: 144, step: 000, train_loss : 0.11914
+epoch: 144, step: 100, train_loss : 0.13590
+epoch: 144, step: 200, train_loss : 0.17182
+epoch: 144, step: 300, train_loss : 0.19343
+epoch: 144, Accuracy : 92.74
+--------------------------------------------------
+epoch: 145, step: 000, train_loss : 0.19891
+epoch: 145, step: 100, train_loss : 0.12234
+epoch: 145, step: 200, train_loss : 0.11558
+epoch: 145, step: 300, train_loss : 0.16237
+epoch: 145, Accuracy : 92.62
+--------------------------------------------------
+epoch: 146, step: 000, train_loss : 0.20534
+epoch: 146, step: 100, train_loss : 0.14746
+epoch: 146, step: 200, train_loss : 0.13724
+epoch: 146, step: 300, train_loss : 0.18089
+epoch: 146, Accuracy : 93.21
+--------------------------------------------------
+epoch: 147, step: 000, train_loss : 0.16589
+epoch: 147, step: 100, train_loss : 0.16340
+epoch: 147, step: 200, train_loss : 0.18056
+epoch: 147, step: 300, train_loss : 0.13531
+epoch: 147, Accuracy : 93.5
+--------------------------------------------------
+epoch: 148, step: 000, train_loss : 0.21469
+epoch: 148, step: 100, train_loss : 0.17407
+epoch: 148, step: 200, train_loss : 0.16142
+epoch: 148, step: 300, train_loss : 0.21431
+epoch: 148, Accuracy : 93.77
+--------------------------------------------------
+epoch: 149, step: 000, train_loss : 0.16019
+epoch: 149, step: 100, train_loss : 0.17462
+epoch: 149, step: 200, train_loss : 0.19411
+epoch: 149, step: 300, train_loss : 0.09038
+epoch: 149, Accuracy : 93.31
+--------------------------------------------------
+epoch: 150, step: 000, train_loss : 0.17452
+epoch: 150, step: 100, train_loss : 0.15549
+epoch: 150, step: 200, train_loss : 0.16199
+epoch: 150, step: 300, train_loss : 0.20726
+epoch: 150, Accuracy : 92.84
+--------------------------------------------------
+epoch: 151, step: 000, train_loss : 0.15858
+epoch: 151, step: 100, train_loss : 0.13680
+epoch: 151, step: 200, train_loss : 0.15427
+epoch: 151, step: 300, train_loss : 0.12218
+epoch: 151, Accuracy : 93.27
+--------------------------------------------------
+epoch: 152, step: 000, train_loss : 0.10954
+epoch: 152, step: 100, train_loss : 0.16684
+epoch: 152, step: 200, train_loss : 0.06800
+epoch: 152, step: 300, train_loss : 0.10428
+epoch: 152, Accuracy : 93.48
+--------------------------------------------------
+epoch: 153, step: 000, train_loss : 0.15780
+epoch: 153, step: 100, train_loss : 0.15269
+epoch: 153, step: 200, train_loss : 0.17895
+epoch: 153, step: 300, train_loss : 0.16977
+epoch: 153, Accuracy : 93.02
+--------------------------------------------------
+epoch: 154, step: 000, train_loss : 0.17130
+epoch: 154, step: 100, train_loss : 0.13187
+epoch: 154, step: 200, train_loss : 0.17587
+epoch: 154, step: 300, train_loss : 0.17283
+epoch: 154, Accuracy : 93.67
+--------------------------------------------------
+epoch: 155, step: 000, train_loss : 0.13529
+epoch: 155, step: 100, train_loss : 0.15112
+epoch: 155, step: 200, train_loss : 0.15291
+epoch: 155, step: 300, train_loss : 0.18137
+epoch: 155, Accuracy : 93.33
+--------------------------------------------------
+epoch: 156, step: 000, train_loss : 0.17026
+epoch: 156, step: 100, train_loss : 0.15792
+epoch: 156, step: 200, train_loss : 0.07494
+epoch: 156, step: 300, train_loss : 0.19145
+epoch: 156, Accuracy : 94.61
+--------------------------------------------------
+epoch: 157, step: 000, train_loss : 0.19761
+epoch: 157, step: 100, train_loss : 0.11559
+epoch: 157, step: 200, train_loss : 0.19437
+epoch: 157, step: 300, train_loss : 0.16622
+epoch: 157, Accuracy : 93.12
+--------------------------------------------------
+epoch: 158, step: 000, train_loss : 0.13867
+epoch: 158, step: 100, train_loss : 0.08859
+epoch: 158, step: 200, train_loss : 0.13400
+epoch: 158, step: 300, train_loss : 0.20376
+epoch: 158, Accuracy : 94.33
+--------------------------------------------------
+epoch: 159, step: 000, train_loss : 0.12003
+epoch: 159, step: 100, train_loss : 0.16496
+epoch: 159, step: 200, train_loss : 0.13228
+epoch: 159, step: 300, train_loss : 0.15130
+epoch: 159, Accuracy : 93.93
+--------------------------------------------------
+epoch: 160, step: 000, train_loss : 0.15421
+epoch: 160, step: 100, train_loss : 0.15767
+epoch: 160, step: 200, train_loss : 0.07768
+epoch: 160, step: 300, train_loss : 0.16491
+
+epoch: 160, Accuracy : 94.41
+--------------------------------------------------
+epoch: 161, step: 000, train_loss : 0.16007
+epoch: 161, step: 100, train_loss : 0.13426
+epoch: 161, step: 200, train_loss : 0.18350
+epoch: 161, step: 300, train_loss : 0.16250
+epoch: 161, Accuracy : 94.31
+--------------------------------------------------
+epoch: 162, step: 000, train_loss : 0.16855
+epoch: 162, step: 100, train_loss : 0.16291
+epoch: 162, step: 200, train_loss : 0.19178
+epoch: 162, step: 300, train_loss : 0.17051
+epoch: 162, Accuracy : 94.83
+--------------------------------------------------
+epoch: 163, step: 000, train_loss : 0.13314
+epoch: 163, step: 100, train_loss : 0.16813
+epoch: 163, step: 200, train_loss : 0.15045
+epoch: 163, step: 300, train_loss : 0.11978
+epoch: 163, Accuracy : 94.07
+--------------------------------------------------
+epoch: 164, step: 000, train_loss : 0.14875
+epoch: 164, step: 100, train_loss : 0.18604
+epoch: 164, step: 200, train_loss : 0.15983
+epoch: 164, step: 300, train_loss : 0.15313
+epoch: 164, Accuracy : 95.14
+--------------------------------------------------
+epoch: 165, step: 000, train_loss : 0.16510
+epoch: 165, step: 100, train_loss : 0.15808
+epoch: 165, step: 200, train_loss : 0.17440
+epoch: 165, step: 300, train_loss : 0.11497
+epoch: 165, Accuracy : 94.98
+--------------------------------------------------
+epoch: 166, step: 000, train_loss : 0.14753
+epoch: 166, step: 100, train_loss : 0.19191
+epoch: 166, step: 200, train_loss : 0.17076
+epoch: 166, step: 300, train_loss : 0.06916
+epoch: 166, Accuracy : 95.06
+--------------------------------------------------
+epoch: 167, step: 000, train_loss : 0.15377
+epoch: 167, step: 100, train_loss : 0.07288
+epoch: 167, step: 200, train_loss : 0.17958
+epoch: 167, step: 300, train_loss : 0.17775
+epoch: 167, Accuracy : 94.57
+--------------------------------------------------
+epoch: 168, step: 000, train_loss : 0.11803
+epoch: 168, step: 100, train_loss : 0.16534
+epoch: 168, step: 200, train_loss : 0.20339
+epoch: 168, step: 300, train_loss : 0.08769
+epoch: 168, Accuracy : 95.16
+--------------------------------------------------
+epoch: 169, step: 000, train_loss : 0.14607
+epoch: 169, step: 100, train_loss : 0.14817
+epoch: 169, step: 200, train_loss : 0.13163
+epoch: 169, step: 300, train_loss : 0.14590
+epoch: 169, Accuracy : 94.81
+--------------------------------------------------
+epoch: 170, step: 000, train_loss : 0.18342
+epoch: 170, step: 100, train_loss : 0.07455
+epoch: 170, step: 200, train_loss : 0.14446
+epoch: 170, step: 300, train_loss : 0.14983
+epoch: 170, Accuracy : 94.61
+--------------------------------------------------
+epoch: 171, step: 000, train_loss : 0.20103
+epoch: 171, step: 100, train_loss : 0.19697
+epoch: 171, step: 200, train_loss : 0.14436
+epoch: 171, step: 300, train_loss : 0.10759
+epoch: 171, Accuracy : 95.5
+--------------------------------------------------
+epoch: 172, step: 000, train_loss : 0.19550
+epoch: 172, step: 100, train_loss : 0.18052
+epoch: 172, step: 200, train_loss : 0.15485
+epoch: 172, step: 300, train_loss : 0.17029
+epoch: 172, Accuracy : 95.01
+--------------------------------------------------
+epoch: 173, step: 000, train_loss : 0.14791
+epoch: 173, step: 100, train_loss : 0.17383
+epoch: 173, step: 200, train_loss : 0.16139
+epoch: 173, step: 300, train_loss : 0.13829
+epoch: 173, Accuracy : 95.1
+--------------------------------------------------
+epoch: 174, step: 000, train_loss : 0.14136
+epoch: 174, step: 100, train_loss : 0.17676
+epoch: 174, step: 200, train_loss : 0.13001
+epoch: 174, step: 300, train_loss : 0.14990
+epoch: 174, Accuracy : 95.63
+--------------------------------------------------
+epoch: 175, step: 000, train_loss : 0.18865
+epoch: 175, step: 100, train_loss : 0.12953
+epoch: 175, step: 200, train_loss : 0.16089
+epoch: 175, step: 300, train_loss : 0.05968
+epoch: 175, Accuracy : 95.2
+--------------------------------------------------
+epoch: 176, step: 000, train_loss : 0.13475
+epoch: 176, step: 100, train_loss : 0.18690
+epoch: 176, step: 200, train_loss : 0.06391
+epoch: 176, step: 300, train_loss : 0.11713
+epoch: 176, Accuracy : 95.42
+--------------------------------------------------
+epoch: 177, step: 000, train_loss : 0.18528
+epoch: 177, step: 100, train_loss : 0.15804
+epoch: 177, step: 200, train_loss : 0.08263
+epoch: 177, step: 300, train_loss : 0.18759
+epoch: 177, Accuracy : 95.72
+--------------------------------------------------
+epoch: 178, step: 000, train_loss : 0.11709
+epoch: 178, step: 100, train_loss : 0.08984
+epoch: 178, step: 200, train_loss : 0.17142
+epoch: 178, step: 300, train_loss : 0.16667
+epoch: 178, Accuracy : 95.82
+--------------------------------------------------
+epoch: 179, step: 000, train_loss : 0.16036
+epoch: 179, step: 100, train_loss : 0.15457
+epoch: 179, step: 200, train_loss : 0.12594
+epoch: 179, step: 300, train_loss : 0.12214
+epoch: 179, Accuracy : 95.93
+--------------------------------------------------
+epoch: 180, step: 000, train_loss : 0.16872
+epoch: 180, step: 100, train_loss : 0.10048
+epoch: 180, step: 200, train_loss : 0.16032
+epoch: 180, step: 300, train_loss : 0.18814
+epoch: 180, Accuracy : 95.66
+--------------------------------------------------
+epoch: 181, step: 000, train_loss : 0.09088
+epoch: 181, step: 100, train_loss : 0.08759
+epoch: 181, step: 200, train_loss : 0.12509
+epoch: 181, step: 300, train_loss : 0.14487
+epoch: 181, Accuracy : 95.75
+--------------------------------------------------
+epoch: 182, step: 000, train_loss : 0.15717
+epoch: 182, step: 100, train_loss : 0.13807
+epoch: 182, step: 200, train_loss : 0.15255
+epoch: 182, step: 300, train_loss : 0.19070
+epoch: 182, Accuracy : 96.03
+--------------------------------------------------
+epoch: 183, step: 000, train_loss : 0.17904
+epoch: 183, step: 100, train_loss : 0.11205
+epoch: 183, step: 200, train_loss : 0.14346
+epoch: 183, step: 300, train_loss : 0.17934
+epoch: 183, Accuracy : 95.81
+--------------------------------------------------
+epoch: 184, step: 000, train_loss : 0.13790
+epoch: 184, step: 100, train_loss : 0.14620
+epoch: 184, step: 200, train_loss : 0.11317
+epoch: 184, step: 300, train_loss : 0.19752
+epoch: 184, Accuracy : 95.99
+--------------------------------------------------
+epoch: 185, step: 000, train_loss : 0.08420
+epoch: 185, step: 100, train_loss : 0.11863
+epoch: 185, step: 200, train_loss : 0.13466
+epoch: 185, step: 300, train_loss : 0.14015
+epoch: 185, Accuracy : 95.97
+--------------------------------------------------
+epoch: 186, step: 000, train_loss : 0.16082
+epoch: 186, step: 100, train_loss : 0.09193
+epoch: 186, step: 200, train_loss : 0.16767
+epoch: 186, step: 300, train_loss : 0.13566
+epoch: 186, Accuracy : 96.02
+--------------------------------------------------
+epoch: 187, step: 000, train_loss : 0.08159
+epoch: 187, step: 100, train_loss : 0.12854
+epoch: 187, step: 200, train_loss : 0.17395
+epoch: 187, step: 300, train_loss : 0.13427
+epoch: 187, Accuracy : 96.1
+--------------------------------------------------
+epoch: 188, step: 000, train_loss : 0.16870
+epoch: 188, step: 100, train_loss : 0.13049
+epoch: 188, step: 200, train_loss : 0.15042
+epoch: 188, step: 300, train_loss : 0.14040
+epoch: 188, Accuracy : 96.13
+--------------------------------------------------
+epoch: 189, step: 000, train_loss : 0.06166
+epoch: 189, step: 100, train_loss : 0.10979
+epoch: 189, step: 200, train_loss : 0.17794
+epoch: 189, step: 300, train_loss : 0.14491
+epoch: 189, Accuracy : 96.24
+--------------------------------------------------
+epoch: 190, step: 000, train_loss : 0.04723
+epoch: 190, step: 100, train_loss : 0.13856
+epoch: 190, step: 200, train_loss : 0.13408
+epoch: 190, step: 300, train_loss : 0.10661
+epoch: 190, Accuracy : 96.25
+--------------------------------------------------
+epoch: 191, step: 000, train_loss : 0.14459
+epoch: 191, step: 100, train_loss : 0.15698
+epoch: 191, step: 200, train_loss : 0.14286
+epoch: 191, step: 300, train_loss : 0.18198
+epoch: 191, Accuracy : 96.34
+--------------------------------------------------
+epoch: 192, step: 000, train_loss : 0.17487
+epoch: 192, step: 100, train_loss : 0.14620
+epoch: 192, step: 200, train_loss : 0.09288
+epoch: 192, step: 300, train_loss : 0.11286
+epoch: 192, Accuracy : 96.14
+--------------------------------------------------
+
+epoch: 193, step: 000, train_loss : 0.11891
+epoch: 193, step: 100, train_loss : 0.18285
+epoch: 193, step: 200, train_loss : 0.09736
+epoch: 193, step: 300, train_loss : 0.15429
+epoch: 193, Accuracy : 96.17
+--------------------------------------------------
+epoch: 194, step: 000, train_loss : 0.13832
+epoch: 194, step: 100, train_loss : 0.18693
+epoch: 194, step: 200, train_loss : 0.13776
+epoch: 194, step: 300, train_loss : 0.13967
+epoch: 194, Accuracy : 96.38
+--------------------------------------------------
+epoch: 195, step: 000, train_loss : 0.19016
+epoch: 195, step: 100, train_loss : 0.09122
+epoch: 195, step: 200, train_loss : 0.14177
+epoch: 195, step: 300, train_loss : 0.07855
+epoch: 195, Accuracy : 96.22
+--------------------------------------------------
+epoch: 196, step: 000, train_loss : 0.11126
+epoch: 196, step: 100, train_loss : 0.18006
+epoch: 196, step: 200, train_loss : 0.14453
+epoch: 196, step: 300, train_loss : 0.13506
+epoch: 196, Accuracy : 96.3
+--------------------------------------------------
+epoch: 197, step: 000, train_loss : 0.14770
+epoch: 197, step: 100, train_loss : 0.13987
+epoch: 197, step: 200, train_loss : 0.19428
+epoch: 197, step: 300, train_loss : 0.08497
+epoch: 197, Accuracy : 96.32
+--------------------------------------------------
+epoch: 198, step: 000, train_loss : 0.12002
+epoch: 198, step: 100, train_loss : 0.12395
+epoch: 198, step: 200, train_loss : 0.10261
+epoch: 198, step: 300, train_loss : 0.09293
+epoch: 198, Accuracy : 96.36
+--------------------------------------------------
+epoch: 199, step: 000, train_loss : 0.10245
+epoch: 199, step: 100, train_loss : 0.15611
+epoch: 199, step: 200, train_loss : 0.18840
+epoch: 199, step: 300, train_loss : 0.10567
+epoch: 199, Accuracy : 96.35
+--------------------------------------------------
+epoch: 200, step: 000, train_loss : 0.16165
+epoch: 200, step: 100, train_loss : 0.07893
+epoch: 200, step: 200, train_loss : 0.08041
+epoch: 200, step: 300, train_loss : 0.04498
+epoch: 200, Accuracy : 96.32
+=> Best Accuracy : 96.38 at epoch 194
+
+Fashition MNIST Vanilla
+
+Configuration------------------------------------
+{'num_epochs': 50, 'lr': 0.1, 'weight_decay': 0.0005, 'print_freq': 100, 'use_mixup': False, 'mixup_alpha': 2.0, 'num_classes': 10, 'dataset': 'FashionMNIST', 'in_channels': 1}
+=> Creating the model
+=> loss function, optimizer and scheduler
+=> Start Training, max epochs 50
+--------------------------------------------------
+epoch: 001, step: 000, train_loss : 0.34060
+epoch: 001, step: 100, train_loss : 0.12315
+epoch: 001, step: 200, train_loss : 0.07344
+epoch: 001, step: 300, train_loss : 0.09356
+epoch: 001, step: 400, train_loss : 0.08415
+epoch: 001, Accuracy : 81.87
+--------------------------------------------------
+epoch: 002, step: 000, train_loss : 0.08226
+epoch: 002, step: 100, train_loss : 0.07429
+epoch: 002, step: 200, train_loss : 0.07421
+epoch: 002, step: 300, train_loss : 0.05374
+epoch: 002, step: 400, train_loss : 0.07463
+epoch: 002, Accuracy : 86.14
+--------------------------------------------------
+epoch: 003, step: 000, train_loss : 0.05788
+epoch: 003, step: 100, train_loss : 0.07151
+epoch: 003, step: 200, train_loss : 0.05361
+epoch: 003, step: 300, train_loss : 0.06286
+epoch: 003, step: 400, train_loss : 0.05488
+epoch: 003, Accuracy : 87.25
+--------------------------------------------------
+epoch: 004, step: 000, train_loss : 0.04618
+epoch: 004, step: 100, train_loss : 0.04637
+epoch: 004, step: 200, train_loss : 0.04641
+epoch: 004, step: 300, train_loss : 0.04521
+epoch: 004, step: 400, train_loss : 0.03722
+epoch: 004, Accuracy : 88.99
+--------------------------------------------------
+epoch: 005, step: 000, train_loss : 0.04664
+epoch: 005, step: 100, train_loss : 0.05139
+epoch: 005, step: 200, train_loss : 0.04712
+epoch: 005, step: 300, train_loss : 0.05862
+epoch: 005, step: 400, train_loss : 0.05648
+epoch: 005, Accuracy : 89.95
+--------------------------------------------------
+epoch: 006, step: 000, train_loss : 0.06131
+epoch: 006, step: 100, train_loss : 0.04390
+epoch: 006, step: 200, train_loss : 0.06025
+epoch: 006, step: 300, train_loss : 0.04291
+epoch: 006, step: 400, train_loss : 0.07024
+epoch: 006, Accuracy : 89.44
+--------------------------------------------------
+epoch: 007, step: 000, train_loss : 0.05615
+epoch: 007, step: 100, train_loss : 0.05343
+epoch: 007, step: 200, train_loss : 0.03931
+epoch: 007, step: 300, train_loss : 0.04884
+epoch: 007, step: 400, train_loss : 0.04482
+epoch: 007, Accuracy : 84.3
+--------------------------------------------------
+epoch: 008, step: 000, train_loss : 0.06125
+epoch: 008, step: 100, train_loss : 0.05489
+epoch: 008, step: 200, train_loss : 0.05146
+epoch: 008, step: 300, train_loss : 0.05341
+epoch: 008, step: 400, train_loss : 0.06913
+epoch: 008, Accuracy : 88.99
+--------------------------------------------------
+epoch: 009, step: 000, train_loss : 0.03945
+epoch: 009, step: 100, train_loss : 0.05555
+epoch: 009, step: 200, train_loss : 0.05023
+epoch: 009, step: 300, train_loss : 0.04682
+epoch: 009, step: 400, train_loss : 0.04904
+epoch: 009, Accuracy : 90.45
+--------------------------------------------------
+epoch: 010, step: 000, train_loss : 0.04798
+epoch: 010, step: 100, train_loss : 0.05877
+epoch: 010, step: 200, train_loss : 0.04304
+epoch: 010, step: 300, train_loss : 0.05098
+epoch: 010, step: 400, train_loss : 0.05875
+epoch: 010, Accuracy : 89.96
+--------------------------------------------------
+epoch: 011, step: 000, train_loss : 0.05565
+epoch: 011, step: 100, train_loss : 0.05237
+epoch: 011, step: 200, train_loss : 0.06350
+epoch: 011, step: 300, train_loss : 0.04702
+epoch: 011, step: 400, train_loss : 0.05047
+epoch: 011, Accuracy : 86.72
+--------------------------------------------------
+epoch: 012, step: 000, train_loss : 0.05959
+epoch: 012, step: 100, train_loss : 0.04668
+epoch: 012, step: 200, train_loss : 0.05369
+epoch: 012, step: 300, train_loss : 0.05256
+epoch: 012, step: 400, train_loss : 0.02914
+epoch: 012, Accuracy : 90.36
+--------------------------------------------------
+epoch: 013, step: 000, train_loss : 0.04440
+epoch: 013, step: 100, train_loss : 0.05074
+epoch: 013, step: 200, train_loss : 0.04552
+epoch: 013, step: 300, train_loss : 0.05806
+epoch: 013, step: 400, train_loss : 0.07382
+epoch: 013, Accuracy : 89.55
+--------------------------------------------------
+epoch: 014, step: 000, train_loss : 0.05607
+epoch: 014, step: 100, train_loss : 0.05537
+epoch: 014, step: 200, train_loss : 0.05175
+epoch: 014, step: 300, train_loss : 0.05910
+epoch: 014, step: 400, train_loss : 0.04271
+epoch: 014, Accuracy : 90.89
+--------------------------------------------------
+epoch: 015, step: 000, train_loss : 0.02763
+epoch: 015, step: 100, train_loss : 0.05304
+epoch: 015, step: 200, train_loss : 0.06029
+epoch: 015, step: 300, train_loss : 0.03690
+epoch: 015, step: 400, train_loss : 0.02732
+epoch: 015, Accuracy : 91.09
+--------------------------------------------------
+epoch: 016, step: 000, train_loss : 0.05174
+epoch: 016, step: 100, train_loss : 0.02866
+epoch: 016, step: 200, train_loss : 0.03452
+epoch: 016, step: 300, train_loss : 0.03374
+epoch: 016, step: 400, train_loss : 0.04855
+epoch: 016, Accuracy : 91.23
+--------------------------------------------------
+epoch: 017, step: 000, train_loss : 0.03971
+epoch: 017, step: 100, train_loss : 0.05625
+epoch: 017, step: 200, train_loss : 0.03657
+epoch: 017, step: 300, train_loss : 0.03957
+epoch: 017, step: 400, train_loss : 0.03796
+epoch: 017, Accuracy : 90.98
+--------------------------------------------------
+epoch: 018, step: 000, train_loss : 0.02912
+epoch: 018, step: 100, train_loss : 0.04944
+epoch: 018, step: 200, train_loss : 0.04462
+epoch: 018, step: 300, train_loss : 0.03787
+epoch: 018, step: 400, train_loss : 0.02761
+epoch: 018, Accuracy : 90.54
+--------------------------------------------------
+epoch: 019, step: 000, train_loss : 0.04259
+epoch: 019, step: 100, train_loss : 0.02778
+epoch: 019, step: 200, train_loss : 0.04605
+epoch: 019, step: 300, train_loss : 0.04510
+epoch: 019, step: 400, train_loss : 0.02965
+epoch: 019, Accuracy : 90.9
+--------------------------------------------------
+epoch: 020, step: 000, train_loss : 0.03128
+epoch: 020, step: 100, train_loss : 0.04067
+epoch: 020, step: 200, train_loss : 0.05584
+epoch: 020, step: 300, train_loss : 0.05884
+epoch: 020, step: 400, train_loss : 0.04036
+epoch: 020, Accuracy : 90.38
+--------------------------------------------------
+epoch: 021, step: 000, train_loss : 0.03641
+epoch: 021, step: 100, train_loss : 0.04511
+epoch: 021, step: 200, train_loss : 0.03998
+epoch: 021, step: 300, train_loss : 0.04969
+epoch: 021, step: 400, train_loss : 0.05049
+epoch: 021, Accuracy : 90.45
+--------------------------------------------------
+epoch: 022, step: 000, train_loss : 0.05166
+epoch: 022, step: 100, train_loss : 0.04520
+epoch: 022, step: 200, train_loss : 0.03101
+epoch: 022, step: 300, train_loss : 0.04219
+epoch: 022, step: 400, train_loss : 0.06164
+epoch: 022, Accuracy : 89.11
+--------------------------------------------------
+epoch: 023, step: 000, train_loss : 0.03867
+epoch: 023, step: 100, train_loss : 0.04275
+epoch: 023, step: 200, train_loss : 0.04715
+epoch: 023, step: 300, train_loss : 0.02737
+epoch: 023, step: 400, train_loss : 0.03797
+epoch: 023, Accuracy : 88.38
+--------------------------------------------------
+epoch: 024, step: 000, train_loss : 0.04932
+epoch: 024, step: 100, train_loss : 0.03692
+epoch: 024, step: 200, train_loss : 0.03684
+epoch: 024, step: 300, train_loss : 0.04230
+epoch: 024, step: 400, train_loss : 0.03372
+epoch: 024, Accuracy : 87.36
+--------------------------------------------------
+epoch: 025, step: 000, train_loss : 0.02485
+epoch: 025, step: 100, train_loss : 0.04820
+epoch: 025, step: 200, train_loss : 0.03689
+epoch: 025, step: 300, train_loss : 0.02986
+epoch: 025, step: 400, train_loss : 0.05516
+epoch: 025, Accuracy : 70.73
+--------------------------------------------------
+epoch: 026, step: 000, train_loss : 0.03836
+epoch: 026, step: 100, train_loss : 0.03791
+epoch: 026, step: 200, train_loss : 0.03884
+epoch: 026, step: 300, train_loss : 0.02732
+epoch: 026, step: 400, train_loss : 0.04673
+epoch: 026, Accuracy : 89.85
+--------------------------------------------------
+epoch: 027, step: 000, train_loss : 0.03070
+
+epoch: 027, step: 100, train_loss : 0.05148
+epoch: 027, step: 200, train_loss : 0.04783
+epoch: 027, step: 300, train_loss : 0.04059
+epoch: 027, step: 400, train_loss : 0.04465
+epoch: 027, Accuracy : 89.18
+--------------------------------------------------
+epoch: 028, step: 000, train_loss : 0.03275
+epoch: 028, step: 100, train_loss : 0.03083
+epoch: 028, step: 200, train_loss : 0.04471
+epoch: 028, step: 300, train_loss : 0.03852
+epoch: 028, step: 400, train_loss : 0.03321
+epoch: 028, Accuracy : 91.6
+--------------------------------------------------
+epoch: 029, step: 000, train_loss : 0.03800
+epoch: 029, step: 100, train_loss : 0.02980
+epoch: 029, step: 200, train_loss : 0.02807
+epoch: 029, step: 300, train_loss : 0.04094
+epoch: 029, step: 400, train_loss : 0.03930
+epoch: 029, Accuracy : 90.23
+--------------------------------------------------
+epoch: 030, step: 000, train_loss : 0.03895
+epoch: 030, step: 100, train_loss : 0.04260
+epoch: 030, step: 200, train_loss : 0.05654
+epoch: 030, step: 300, train_loss : 0.04581
+epoch: 030, step: 400, train_loss : 0.04193
+epoch: 030, Accuracy : 89.37
+--------------------------------------------------
+epoch: 031, step: 000, train_loss : 0.03995
+epoch: 031, step: 100, train_loss : 0.03307
+epoch: 031, step: 200, train_loss : 0.03859
+epoch: 031, step: 300, train_loss : 0.04711
+epoch: 031, step: 400, train_loss : 0.05108
+epoch: 031, Accuracy : 91.18
+--------------------------------------------------
+epoch: 032, step: 000, train_loss : 0.03256
+epoch: 032, step: 100, train_loss : 0.04527
+epoch: 032, step: 200, train_loss : 0.04736
+epoch: 032, step: 300, train_loss : 0.04014
+epoch: 032, step: 400, train_loss : 0.03866
+epoch: 032, Accuracy : 91.25
+--------------------------------------------------
+epoch: 033, step: 000, train_loss : 0.03263
+epoch: 033, step: 100, train_loss : 0.05149
+epoch: 033, step: 200, train_loss : 0.02486
+epoch: 033, step: 300, train_loss : 0.02881
+epoch: 033, step: 400, train_loss : 0.03320
+epoch: 033, Accuracy : 91.68
+--------------------------------------------------
+epoch: 034, step: 000, train_loss : 0.05960
+epoch: 034, step: 100, train_loss : 0.04820
+epoch: 034, step: 200, train_loss : 0.03343
+epoch: 034, step: 300, train_loss : 0.02199
+epoch: 034, step: 400, train_loss : 0.04851
+epoch: 034, Accuracy : 91.57
+--------------------------------------------------
+epoch: 035, step: 000, train_loss : 0.05154
+epoch: 035, step: 100, train_loss : 0.03864
+epoch: 035, step: 200, train_loss : 0.02475
+epoch: 035, step: 300, train_loss : 0.04025
+epoch: 035, step: 400, train_loss : 0.04367
+epoch: 035, Accuracy : 90.3
+--------------------------------------------------
+epoch: 036, step: 000, train_loss : 0.05193
+epoch: 036, step: 100, train_loss : 0.06038
+epoch: 036, step: 200, train_loss : 0.03357
+epoch: 036, step: 300, train_loss : 0.04252
+epoch: 036, step: 400, train_loss : 0.02811
+epoch: 036, Accuracy : 90.56
+--------------------------------------------------
+epoch: 037, step: 000, train_loss : 0.03915
+epoch: 037, step: 100, train_loss : 0.03258
+epoch: 037, step: 200, train_loss : 0.05320
+epoch: 037, step: 300, train_loss : 0.04396
+epoch: 037, step: 400, train_loss : 0.04847
+epoch: 037, Accuracy : 92.4
+--------------------------------------------------
+epoch: 038, step: 000, train_loss : 0.04251
+epoch: 038, step: 100, train_loss : 0.04084
+epoch: 038, step: 200, train_loss : 0.04360
+epoch: 038, step: 300, train_loss : 0.03889
+epoch: 038, step: 400, train_loss : 0.04639
+epoch: 038, Accuracy : 91.32
+--------------------------------------------------
+epoch: 039, step: 000, train_loss : 0.02188
+epoch: 039, step: 100, train_loss : 0.04236
+epoch: 039, step: 200, train_loss : 0.04092
+epoch: 039, step: 300, train_loss : 0.04435
+epoch: 039, step: 400, train_loss : 0.04800
+epoch: 039, Accuracy : 92.0
+--------------------------------------------------
+epoch: 040, step: 000, train_loss : 0.03154
+epoch: 040, step: 100, train_loss : 0.02977
+epoch: 040, step: 200, train_loss : 0.04360
+epoch: 040, step: 300, train_loss : 0.01930
+epoch: 040, step: 400, train_loss : 0.02837
+epoch: 040, Accuracy : 88.93
+--------------------------------------------------
+epoch: 041, step: 000, train_loss : 0.03930
+epoch: 041, step: 100, train_loss : 0.03100
+epoch: 041, step: 200, train_loss : 0.04641
+epoch: 041, step: 300, train_loss : 0.04444
+epoch: 041, step: 400, train_loss : 0.03737
+epoch: 041, Accuracy : 92.09
+--------------------------------------------------
+epoch: 042, step: 000, train_loss : 0.02937
+epoch: 042, step: 100, train_loss : 0.03623
+epoch: 042, step: 200, train_loss : 0.03123
+epoch: 042, step: 300, train_loss : 0.02793
+epoch: 042, step: 400, train_loss : 0.04746
+epoch: 042, Accuracy : 91.24
+--------------------------------------------------
+epoch: 043, step: 000, train_loss : 0.03661
+epoch: 043, step: 100, train_loss : 0.03318
+epoch: 043, step: 200, train_loss : 0.05763
+epoch: 043, step: 300, train_loss : 0.04133
+epoch: 043, step: 400, train_loss : 0.04265
+epoch: 043, Accuracy : 90.87
+--------------------------------------------------
+epoch: 044, step: 000, train_loss : 0.03986
+epoch: 044, step: 100, train_loss : 0.04412
+epoch: 044, step: 200, train_loss : 0.03166
+epoch: 044, step: 300, train_loss : 0.04185
+epoch: 044, step: 400, train_loss : 0.04037
+epoch: 044, Accuracy : 92.69
+--------------------------------------------------
+epoch: 045, step: 000, train_loss : 0.03459
+epoch: 045, step: 100, train_loss : 0.03495
+epoch: 045, step: 200, train_loss : 0.03694
+epoch: 045, step: 300, train_loss : 0.03172
+epoch: 045, step: 400, train_loss : 0.05500
+epoch: 045, Accuracy : 91.8
+--------------------------------------------------
+epoch: 046, step: 000, train_loss : 0.04384
+epoch: 046, step: 100, train_loss : 0.03778
+epoch: 046, step: 200, train_loss : 0.03543
+epoch: 046, step: 300, train_loss : 0.02768
+epoch: 046, step: 400, train_loss : 0.03134
+epoch: 046, Accuracy : 91.99
+--------------------------------------------------
+epoch: 047, step: 000, train_loss : 0.03387
+epoch: 047, step: 100, train_loss : 0.04165
+epoch: 047, step: 200, train_loss : 0.04766
+epoch: 047, step: 300, train_loss : 0.03550
+epoch: 047, step: 400, train_loss : 0.02510
+epoch: 047, Accuracy : 92.42
+--------------------------------------------------
+epoch: 048, step: 000, train_loss : 0.04881
+epoch: 048, step: 100, train_loss : 0.04329
+epoch: 048, step: 200, train_loss : 0.02724
+epoch: 048, step: 300, train_loss : 0.04029
+epoch: 048, step: 400, train_loss : 0.03891
+epoch: 048, Accuracy : 92.45
+--------------------------------------------------
+epoch: 049, step: 000, train_loss : 0.03971
+epoch: 049, step: 100, train_loss : 0.03226
+epoch: 049, step: 200, train_loss : 0.03529
+epoch: 049, step: 300, train_loss : 0.02776
+epoch: 049, step: 400, train_loss : 0.03590
+epoch: 049, Accuracy : 91.62
+--------------------------------------------------
+epoch: 050, step: 000, train_loss : 0.05132
+epoch: 050, step: 100, train_loss : 0.01334
+epoch: 050, step: 200, train_loss : 0.04357
+epoch: 050, step: 300, train_loss : 0.03458
+epoch: 050, step: 400, train_loss : 0.04017
+epoch: 050, Accuracy : 91.38
+=> Best Accuracy : 92.69 at epoch 44
+
+
+
+Configuration------------------------------------
+{'num_epochs': 50, 'lr': 0.1, 'weight_decay': 0.0005, 'print_freq': 100, 'use_mixup': False, 'mixup_alpha': 0.2, 'num_classes': 10, 'dataset': 'FashionMNIST', 'in_channels': 1}
+=> Creating the model
+=> loss function, optimizer and scheduler
+=> Start Training, max epochs 50
+--------------------------------------------------
+epoch: 001, step: 000, train_loss : 0.33758
+epoch: 001, step: 100, train_loss : 0.05982
+epoch: 001, step: 200, train_loss : 0.06555
+epoch: 001, step: 300, train_loss : 0.07772
+epoch: 001, step: 400, train_loss : 0.04560
+epoch: 001, Accuracy : 90.31
+--------------------------------------------------
+epoch: 002, step: 000, train_loss : 0.05396
+epoch: 002, step: 100, train_loss : 0.06839
+epoch: 002, step: 200, train_loss : 0.02567
+epoch: 002, step: 300, train_loss : 0.05562
+epoch: 002, step: 400, train_loss : 0.01780
+epoch: 002, Accuracy : 90.99
+--------------------------------------------------
+epoch: 003, step: 000, train_loss : 0.03832
+epoch: 003, step: 100, train_loss : 0.03731
+epoch: 003, step: 200, train_loss : 0.03010
+epoch: 003, step: 300, train_loss : 0.03788
+epoch: 003, step: 400, train_loss : 0.03398
+epoch: 003, Accuracy : 90.85
+--------------------------------------------------
+epoch: 004, step: 000, train_loss : 0.02821
+epoch: 004, step: 100, train_loss : 0.03752
+epoch: 004, step: 200, train_loss : 0.05845
+epoch: 004, step: 300, train_loss : 0.02934
+epoch: 004, step: 400, train_loss : 0.02546
+epoch: 004, Accuracy : 91.85
+--------------------------------------------------
+epoch: 005, step: 000, train_loss : 0.03006
+epoch: 005, step: 100, train_loss : 0.02582
+epoch: 005, step: 200, train_loss : 0.03730
+epoch: 005, step: 300, train_loss : 0.03383
+epoch: 005, step: 400, train_loss : 0.02892
+epoch: 005, Accuracy : 92.12
+--------------------------------------------------
+epoch: 006, step: 000, train_loss : 0.02406
+epoch: 006, step: 100, train_loss : 0.03895
+epoch: 006, step: 200, train_loss : 0.03538
+epoch: 006, step: 300, train_loss : 0.02908
+epoch: 006, step: 400, train_loss : 0.03142
+epoch: 006, Accuracy : 92.69
+--------------------------------------------------
+epoch: 007, step: 000, train_loss : 0.02033
+epoch: 007, step: 100, train_loss : 0.03880
+epoch: 007, step: 200, train_loss : 0.02275
+epoch: 007, step: 300, train_loss : 0.03102
+epoch: 007, step: 400, train_loss : 0.02331
+epoch: 007, Accuracy : 89.87
+--------------------------------------------------
+epoch: 008, step: 000, train_loss : 0.02951
+epoch: 008, step: 100, train_loss : 0.01842
+epoch: 008, step: 200, train_loss : 0.03017
+epoch: 008, step: 300, train_loss : 0.02343
+epoch: 008, step: 400, train_loss : 0.01436
+epoch: 008, Accuracy : 92.02
+--------------------------------------------------
+epoch: 009, step: 000, train_loss : 0.02214
+epoch: 009, step: 100, train_loss : 0.00885
+epoch: 009, step: 200, train_loss : 0.02604
+epoch: 009, step: 300, train_loss : 0.01514
+epoch: 009, step: 400, train_loss : 0.03043
+epoch: 009, Accuracy : 91.6
+--------------------------------------------------
+epoch: 010, step: 000, train_loss : 0.02317
+epoch: 010, step: 100, train_loss : 0.02111
+epoch: 010, step: 200, train_loss : 0.02665
+epoch: 010, step: 300, train_loss : 0.04743
+epoch: 010, step: 400, train_loss : 0.02307
+epoch: 010, Accuracy : 92.51
+--------------------------------------------------
+epoch: 011, step: 000, train_loss : 0.01688
+epoch: 011, step: 100, train_loss : 0.01004
+epoch: 011, step: 200, train_loss : 0.03984
+epoch: 011, step: 300, train_loss : 0.01465
+epoch: 011, step: 400, train_loss : 0.02683
+epoch: 011, Accuracy : 92.16
+--------------------------------------------------
+epoch: 012, step: 000, train_loss : 0.03136
+epoch: 012, step: 100, train_loss : 0.02336
+epoch: 012, step: 200, train_loss : 0.04127
+epoch: 012, step: 300, train_loss : 0.03888
+epoch: 012, step: 400, train_loss : 0.01799
+epoch: 012, Accuracy : 91.63
+--------------------------------------------------
+epoch: 013, step: 000, train_loss : 0.02257
+epoch: 013, step: 100, train_loss : 0.02341
+epoch: 013, step: 200, train_loss : 0.01924
+epoch: 013, step: 300, train_loss : 0.02049
+epoch: 013, step: 400, train_loss : 0.02992
+epoch: 013, Accuracy : 92.43
+--------------------------------------------------
+epoch: 014, step: 000, train_loss : 0.02698
+epoch: 014, step: 100, train_loss : 0.02157
+epoch: 014, step: 200, train_loss : 0.01898
+epoch: 014, step: 300, train_loss : 0.03082
+epoch: 014, step: 400, train_loss : 0.03675
+epoch: 014, Accuracy : 90.88
+--------------------------------------------------
+epoch: 015, step: 000, train_loss : 0.01839
+epoch: 015, step: 100, train_loss : 0.01420
+epoch: 015, step: 200, train_loss : 0.03094
+epoch: 015, step: 300, train_loss : 0.01410
+epoch: 015, step: 400, train_loss : 0.02792
+epoch: 015, Accuracy : 91.83
+--------------------------------------------------
+epoch: 016, step: 000, train_loss : 0.00932
+epoch: 016, step: 100, train_loss : 0.03761
+epoch: 016, step: 200, train_loss : 0.03443
+epoch: 016, step: 300, train_loss : 0.03309
+epoch: 016, step: 400, train_loss : 0.03117
+epoch: 016, Accuracy : 91.5
+--------------------------------------------------
+epoch: 017, step: 000, train_loss : 0.02810
+epoch: 017, step: 100, train_loss : 0.01379
+epoch: 017, step: 200, train_loss : 0.01550
+epoch: 017, step: 300, train_loss : 0.02762
+epoch: 017, step: 400, train_loss : 0.02970
+epoch: 017, Accuracy : 91.85
+--------------------------------------------------
+epoch: 018, step: 000, train_loss : 0.01662
+epoch: 018, step: 100, train_loss : 0.01343
+epoch: 018, step: 200, train_loss : 0.02148
+epoch: 018, step: 300, train_loss : 0.01921
+epoch: 018, step: 400, train_loss : 0.02192
+epoch: 018, Accuracy : 88.78
+--------------------------------------------------
+epoch: 019, step: 000, train_loss : 0.01878
+epoch: 019, step: 100, train_loss : 0.02234
+epoch: 019, step: 200, train_loss : 0.02267
+epoch: 019, step: 300, train_loss : 0.01646
+epoch: 019, step: 400, train_loss : 0.01891
+epoch: 019, Accuracy : 91.55
+--------------------------------------------------
+epoch: 020, step: 000, train_loss : 0.01985
+epoch: 020, step: 100, train_loss : 0.02044
+epoch: 020, step: 200, train_loss : 0.03004
+epoch: 020, step: 300, train_loss : 0.02310
+epoch: 020, step: 400, train_loss : 0.02310
+epoch: 020, Accuracy : 92.03
+--------------------------------------------------
+epoch: 021, step: 000, train_loss : 0.01683
+epoch: 021, step: 100, train_loss : 0.01698
+epoch: 021, step: 200, train_loss : 0.02456
+epoch: 021, step: 300, train_loss : 0.03365
+epoch: 021, step: 400, train_loss : 0.02371
+epoch: 021, Accuracy : 92.56
+--------------------------------------------------
+epoch: 022, step: 000, train_loss : 0.01699
+epoch: 022, step: 100, train_loss : 0.01769
+epoch: 022, step: 200, train_loss : 0.01938
+epoch: 022, step: 300, train_loss : 0.02552
+epoch: 022, step: 400, train_loss : 0.01216
+epoch: 022, Accuracy : 91.65
+--------------------------------------------------
+epoch: 023, step: 000, train_loss : 0.02167
+epoch: 023, step: 100, train_loss : 0.01252
+epoch: 023, step: 200, train_loss : 0.01032
+epoch: 023, step: 300, train_loss : 0.00962
+epoch: 023, step: 400, train_loss : 0.02299
+epoch: 023, Accuracy : 89.68
+--------------------------------------------------
+epoch: 024, step: 000, train_loss : 0.01953
+epoch: 024, step: 100, train_loss : 0.01810
+epoch: 024, step: 200, train_loss : 0.02965
+epoch: 024, step: 300, train_loss : 0.01016
+epoch: 024, step: 400, train_loss : 0.02011
+epoch: 024, Accuracy : 90.89
+--------------------------------------------------
+epoch: 025, step: 000, train_loss : 0.01406
+epoch: 025, step: 100, train_loss : 0.01322
+epoch: 025, step: 200, train_loss : 0.02108
+epoch: 025, step: 300, train_loss : 0.01484
+epoch: 025, step: 400, train_loss : 0.01648
+epoch: 025, Accuracy : 91.69
+--------------------------------------------------
+epoch: 026, step: 000, train_loss : 0.02218
+epoch: 026, step: 100, train_loss : 0.01686
+epoch: 026, step: 200, train_loss : 0.03627
+epoch: 026, step: 300, train_loss : 0.02243
+epoch: 026, step: 400, train_loss : 0.02053
+epoch: 026, Accuracy : 92.16
+--------------------------------------------------
+epoch: 027, step: 000, train_loss : 0.01373
+
+epoch: 027, step: 100, train_loss : 0.00837
+epoch: 027, step: 200, train_loss : 0.01109
+epoch: 027, step: 300, train_loss : 0.02228
+epoch: 027, step: 400, train_loss : 0.01777
+epoch: 027, Accuracy : 91.36
+--------------------------------------------------
+epoch: 028, step: 000, train_loss : 0.01860
+epoch: 028, step: 100, train_loss : 0.01254
+epoch: 028, step: 200, train_loss : 0.00998
+epoch: 028, step: 300, train_loss : 0.02204
+epoch: 028, step: 400, train_loss : 0.02365
+epoch: 028, Accuracy : 91.5
+--------------------------------------------------
+epoch: 029, step: 000, train_loss : 0.01287
+epoch: 029, step: 100, train_loss : 0.02248
+epoch: 029, step: 200, train_loss : 0.00835
+epoch: 029, step: 300, train_loss : 0.01593
+epoch: 029, step: 400, train_loss : 0.01200
+epoch: 029, Accuracy : 90.5
+--------------------------------------------------
+epoch: 030, step: 000, train_loss : 0.01698
+epoch: 030, step: 100, train_loss : 0.00958
+epoch: 030, step: 200, train_loss : 0.03094
+epoch: 030, step: 300, train_loss : 0.01391
+epoch: 030, step: 400, train_loss : 0.02764
+epoch: 030, Accuracy : 91.8
+--------------------------------------------------
+epoch: 031, step: 000, train_loss : 0.03054
+epoch: 031, step: 100, train_loss : 0.00747
+epoch: 031, step: 200, train_loss : 0.01633
+epoch: 031, step: 300, train_loss : 0.01099
+epoch: 031, step: 400, train_loss : 0.01493
+epoch: 031, Accuracy : 91.92
+--------------------------------------------------
+epoch: 032, step: 000, train_loss : 0.00735
+epoch: 032, step: 100, train_loss : 0.01278
+epoch: 032, step: 200, train_loss : 0.01366
+epoch: 032, step: 300, train_loss : 0.01465
+epoch: 032, step: 400, train_loss : 0.02748
+epoch: 032, Accuracy : 92.12
+--------------------------------------------------
+epoch: 033, step: 000, train_loss : 0.01128
+epoch: 033, step: 100, train_loss : 0.02059
+epoch: 033, step: 200, train_loss : 0.02376
+epoch: 033, step: 300, train_loss : 0.03522
+epoch: 033, step: 400, train_loss : 0.01779
+epoch: 033, Accuracy : 92.15
+--------------------------------------------------
+epoch: 034, step: 000, train_loss : 0.02306
+epoch: 034, step: 100, train_loss : 0.01519
+epoch: 034, step: 200, train_loss : 0.02942
+epoch: 034, step: 300, train_loss : 0.01294
+epoch: 034, step: 400, train_loss : 0.01399
+epoch: 034, Accuracy : 89.79
+--------------------------------------------------
+epoch: 035, step: 000, train_loss : 0.01919
+epoch: 035, step: 100, train_loss : 0.00977
+epoch: 035, step: 200, train_loss : 0.01156
+epoch: 035, step: 300, train_loss : 0.01945
+epoch: 035, step: 400, train_loss : 0.02940
+epoch: 035, Accuracy : 89.89
+--------------------------------------------------
+epoch: 036, step: 000, train_loss : 0.01202
+epoch: 036, step: 100, train_loss : 0.00926
+epoch: 036, step: 200, train_loss : 0.01437
+epoch: 036, step: 300, train_loss : 0.01499
+epoch: 036, step: 400, train_loss : 0.03029
+epoch: 036, Accuracy : 88.84
+--------------------------------------------------
+epoch: 037, step: 000, train_loss : 0.01540
+epoch: 037, step: 100, train_loss : 0.01481
+epoch: 037, step: 200, train_loss : 0.00990
+epoch: 037, step: 300, train_loss : 0.01396
+epoch: 037, step: 400, train_loss : 0.00939
+epoch: 037, Accuracy : 90.73
+--------------------------------------------------
+epoch: 038, step: 000, train_loss : 0.01885
+epoch: 038, step: 100, train_loss : 0.01734
+epoch: 038, step: 200, train_loss : 0.02112
+epoch: 038, step: 300, train_loss : 0.02810
+epoch: 038, step: 400, train_loss : 0.01540
+epoch: 038, Accuracy : 91.47
+--------------------------------------------------
+epoch: 039, step: 000, train_loss : 0.00792
+epoch: 039, step: 100, train_loss : 0.01339
+epoch: 039, step: 200, train_loss : 0.02462
+epoch: 039, step: 300, train_loss : 0.01415
+epoch: 039, step: 400, train_loss : 0.02579
+epoch: 039, Accuracy : 92.04
+--------------------------------------------------
+epoch: 040, step: 000, train_loss : 0.01198
+epoch: 040, step: 100, train_loss : 0.00867
+epoch: 040, step: 200, train_loss : 0.01800
+epoch: 040, step: 300, train_loss : 0.01635
+epoch: 040, step: 400, train_loss : 0.02682
+epoch: 040, Accuracy : 91.61
+--------------------------------------------------
+epoch: 041, step: 000, train_loss : 0.01395
+epoch: 041, step: 100, train_loss : 0.01374
+epoch: 041, step: 200, train_loss : 0.01105
+epoch: 041, step: 300, train_loss : 0.01016
+epoch: 041, step: 400, train_loss : 0.02691
+epoch: 041, Accuracy : 92.11
+--------------------------------------------------
+epoch: 042, step: 000, train_loss : 0.00806
+epoch: 042, step: 100, train_loss : 0.01345
+epoch: 042, step: 200, train_loss : 0.01092
+epoch: 042, step: 300, train_loss : 0.03237
+epoch: 042, step: 400, train_loss : 0.01931
+epoch: 042, Accuracy : 92.34
+--------------------------------------------------
+epoch: 043, step: 000, train_loss : 0.01087
+epoch: 043, step: 100, train_loss : 0.01366
+epoch: 043, step: 200, train_loss : 0.02517
+epoch: 043, step: 300, train_loss : 0.01293
+epoch: 043, step: 400, train_loss : 0.02298
+epoch: 043, Accuracy : 91.83
+--------------------------------------------------
+epoch: 044, step: 000, train_loss : 0.01127
+epoch: 044, step: 100, train_loss : 0.00725
+epoch: 044, step: 200, train_loss : 0.01484
+epoch: 044, step: 300, train_loss : 0.01613
+epoch: 044, step: 400, train_loss : 0.03514
+epoch: 044, Accuracy : 91.07
+--------------------------------------------------
+epoch: 045, step: 000, train_loss : 0.01573
+epoch: 045, step: 100, train_loss : 0.00681
+epoch: 045, step: 200, train_loss : 0.00939
+epoch: 045, step: 300, train_loss : 0.02616
+epoch: 045, step: 400, train_loss : 0.01722
+epoch: 045, Accuracy : 92.35
+--------------------------------------------------
+epoch: 046, step: 000, train_loss : 0.01143
+epoch: 046, step: 100, train_loss : 0.01956
+epoch: 046, step: 200, train_loss : 0.00732
+epoch: 046, step: 300, train_loss : 0.01632
+epoch: 046, step: 400, train_loss : 0.02657
+epoch: 046, Accuracy : 92.3
+--------------------------------------------------
+epoch: 047, step: 000, train_loss : 0.01423
+epoch: 047, step: 100, train_loss : 0.01270
+epoch: 047, step: 200, train_loss : 0.00819
+epoch: 047, step: 300, train_loss : 0.01757
+epoch: 047, step: 400, train_loss : 0.01703
+epoch: 047, Accuracy : 92.21
+--------------------------------------------------
+epoch: 048, step: 000, train_loss : 0.01493
+epoch: 048, step: 100, train_loss : 0.01162
+epoch: 048, step: 200, train_loss : 0.01108
+epoch: 048, step: 300, train_loss : 0.01029
+epoch: 048, step: 400, train_loss : 0.01324
+epoch: 048, Accuracy : 90.82
+--------------------------------------------------
+epoch: 049, step: 000, train_loss : 0.01745
+epoch: 049, step: 100, train_loss : 0.01989
+epoch: 049, step: 200, train_loss : 0.00928
+epoch: 049, step: 300, train_loss : 0.01554
+epoch: 049, step: 400, train_loss : 0.01981
+epoch: 049, Accuracy : 91.45
+--------------------------------------------------
+epoch: 050, step: 000, train_loss : 0.01650
+epoch: 050, step: 100, train_loss : 0.01076
+epoch: 050, step: 200, train_loss : 0.01822
+epoch: 050, step: 300, train_loss : 0.01789
+epoch: 050, step: 400, train_loss : 0.01482
+epoch: 050, Accuracy : 90.35
+=> Best Accuracy : 92.69 at epoch 6
+
+
+Configuration------------------------------------
+{'num_epochs': 50, 'lr': 0.1, 'weight_decay': 0.0005, 'print_freq': 100, 'use_mixup': True, 'mixup_alpha': 4.0, 'num_classes': 10, 'dataset': 'FashionMNIST', 'in_channels': 1}
+=> Creating the model
+=> loss function, optimizer and scheduler
+=> Start Training, max epochs 50
+--------------------------------------------------
+epoch: 001, step: 000, train_loss : 0.33486
+epoch: 001, step: 100, train_loss : 0.20779
+epoch: 001, step: 200, train_loss : 0.18318
+epoch: 001, step: 300, train_loss : 0.18900
+epoch: 001, step: 400, train_loss : 0.17417
+epoch: 001, Accuracy : 90.17
+--------------------------------------------------
+epoch: 002, step: 000, train_loss : 0.16048
+epoch: 002, step: 100, train_loss : 0.16630
+epoch: 002, step: 200, train_loss : 0.16633
+epoch: 002, step: 300, train_loss : 0.14319
+epoch: 002, step: 400, train_loss : 0.15919
+epoch: 002, Accuracy : 90.22
+--------------------------------------------------
+epoch: 003, step: 000, train_loss : 0.17684
+epoch: 003, step: 100, train_loss : 0.16628
+epoch: 003, step: 200, train_loss : 0.15793
+epoch: 003, step: 300, train_loss : 0.14524
+epoch: 003, step: 400, train_loss : 0.16070
+epoch: 003, Accuracy : 89.47
+--------------------------------------------------
+epoch: 004, step: 000, train_loss : 0.14618
+epoch: 004, step: 100, train_loss : 0.16605
+epoch: 004, step: 200, train_loss : 0.16514
+epoch: 004, step: 300, train_loss : 0.15169
+epoch: 004, step: 400, train_loss : 0.16565
+epoch: 004, Accuracy : 90.97
+--------------------------------------------------
+epoch: 005, step: 000, train_loss : 0.14224
+epoch: 005, step: 100, train_loss : 0.17552
+epoch: 005, step: 200, train_loss : 0.15184
+epoch: 005, step: 300, train_loss : 0.13358
+epoch: 005, step: 400, train_loss : 0.15400
+epoch: 005, Accuracy : 91.66
+--------------------------------------------------
+epoch: 006, step: 000, train_loss : 0.15598
+epoch: 006, step: 100, train_loss : 0.14078
+epoch: 006, step: 200, train_loss : 0.15108
+epoch: 006, step: 300, train_loss : 0.15258
+epoch: 006, step: 400, train_loss : 0.16524
+epoch: 006, Accuracy : 91.85
+--------------------------------------------------
+epoch: 007, step: 000, train_loss : 0.14616
+epoch: 007, step: 100, train_loss : 0.14749
+epoch: 007, step: 200, train_loss : 0.15249
+epoch: 007, step: 300, train_loss : 0.16077
+epoch: 007, step: 400, train_loss : 0.13190
+epoch: 007, Accuracy : 91.83
+--------------------------------------------------
+epoch: 008, step: 000, train_loss : 0.12609
+epoch: 008, step: 100, train_loss : 0.15550
+epoch: 008, step: 200, train_loss : 0.13578
+epoch: 008, step: 300, train_loss : 0.14591
+epoch: 008, step: 400, train_loss : 0.15162
+epoch: 008, Accuracy : 92.52
+--------------------------------------------------
+epoch: 009, step: 000, train_loss : 0.13822
+epoch: 009, step: 100, train_loss : 0.14950
+epoch: 009, step: 200, train_loss : 0.15042
+epoch: 009, step: 300, train_loss : 0.15582
+epoch: 009, step: 400, train_loss : 0.15314
+epoch: 009, Accuracy : 91.73
+--------------------------------------------------
+epoch: 010, step: 000, train_loss : 0.14235
+epoch: 010, step: 100, train_loss : 0.17280
+epoch: 010, step: 200, train_loss : 0.15623
+epoch: 010, step: 300, train_loss : 0.16098
+epoch: 010, step: 400, train_loss : 0.15873
+epoch: 010, Accuracy : 92.48
+--------------------------------------------------
+epoch: 011, step: 000, train_loss : 0.14182
+epoch: 011, step: 100, train_loss : 0.15375
+epoch: 011, step: 200, train_loss : 0.12798
+epoch: 011, step: 300, train_loss : 0.14373
+epoch: 011, step: 400, train_loss : 0.15333
+epoch: 011, Accuracy : 92.28
+--------------------------------------------------
+epoch: 012, step: 000, train_loss : 0.11570
+epoch: 012, step: 100, train_loss : 0.16918
+epoch: 012, step: 200, train_loss : 0.16669
+epoch: 012, step: 300, train_loss : 0.14744
+epoch: 012, step: 400, train_loss : 0.09230
+epoch: 012, Accuracy : 92.27
+--------------------------------------------------
+epoch: 013, step: 000, train_loss : 0.15916
+epoch: 013, step: 100, train_loss : 0.15135
+epoch: 013, step: 200, train_loss : 0.16893
+epoch: 013, step: 300, train_loss : 0.14611
+epoch: 013, step: 400, train_loss : 0.12479
+epoch: 013, Accuracy : 91.8
+--------------------------------------------------
+epoch: 014, step: 000, train_loss : 0.11484
+epoch: 014, step: 100, train_loss : 0.14668
+epoch: 014, step: 200, train_loss : 0.15292
+epoch: 014, step: 300, train_loss : 0.14520
+epoch: 014, step: 400, train_loss : 0.16362
+epoch: 014, Accuracy : 91.51
+--------------------------------------------------
+epoch: 015, step: 000, train_loss : 0.14450
+epoch: 015, step: 100, train_loss : 0.15332
+epoch: 015, step: 200, train_loss : 0.14069
+epoch: 015, step: 300, train_loss : 0.14035
+epoch: 015, step: 400, train_loss : 0.11618
+epoch: 015, Accuracy : 92.76
+--------------------------------------------------
+epoch: 016, step: 000, train_loss : 0.12705
+epoch: 016, step: 100, train_loss : 0.14460
+epoch: 016, step: 200, train_loss : 0.12399
+epoch: 016, step: 300, train_loss : 0.14134
+epoch: 016, step: 400, train_loss : 0.14451
+epoch: 016, Accuracy : 92.54
+--------------------------------------------------
+epoch: 017, step: 000, train_loss : 0.15186
+epoch: 017, step: 100, train_loss : 0.08603
+epoch: 017, step: 200, train_loss : 0.14823
+epoch: 017, step: 300, train_loss : 0.13404
+epoch: 017, step: 400, train_loss : 0.15632
+epoch: 017, Accuracy : 92.61
+--------------------------------------------------
+epoch: 018, step: 000, train_loss : 0.15091
+epoch: 018, step: 100, train_loss : 0.13682
+epoch: 018, step: 200, train_loss : 0.12974
+epoch: 018, step: 300, train_loss : 0.12947
+epoch: 018, step: 400, train_loss : 0.15958
+epoch: 018, Accuracy : 92.82
+--------------------------------------------------
+epoch: 019, step: 000, train_loss : 0.13873
+epoch: 019, step: 100, train_loss : 0.13074
+epoch: 019, step: 200, train_loss : 0.14453
+epoch: 019, step: 300, train_loss : 0.14829
+epoch: 019, step: 400, train_loss : 0.16196
+epoch: 019, Accuracy : 93.05
+--------------------------------------------------
+epoch: 020, step: 000, train_loss : 0.14420
+epoch: 020, step: 100, train_loss : 0.14913
+epoch: 020, step: 200, train_loss : 0.14128
+epoch: 020, step: 300, train_loss : 0.14294
+epoch: 020, step: 400, train_loss : 0.15669
+epoch: 020, Accuracy : 92.36
+--------------------------------------------------
+epoch: 021, step: 000, train_loss : 0.14702
+epoch: 021, step: 100, train_loss : 0.15538
+epoch: 021, step: 200, train_loss : 0.14381
+epoch: 021, step: 300, train_loss : 0.16060
+epoch: 021, step: 400, train_loss : 0.15941
+epoch: 021, Accuracy : 92.36
+--------------------------------------------------
+epoch: 022, step: 000, train_loss : 0.14253
+epoch: 022, step: 100, train_loss : 0.14669
+epoch: 022, step: 200, train_loss : 0.14394
+epoch: 022, step: 300, train_loss : 0.13100
+epoch: 022, step: 400, train_loss : 0.11018
+epoch: 022, Accuracy : 92.27
+--------------------------------------------------
+epoch: 023, step: 000, train_loss : 0.14514
+epoch: 023, step: 100, train_loss : 0.14634
+epoch: 023, step: 200, train_loss : 0.15016
+epoch: 023, step: 300, train_loss : 0.14055
+epoch: 023, step: 400, train_loss : 0.14760
+epoch: 023, Accuracy : 93.1
+--------------------------------------------------
+epoch: 024, step: 000, train_loss : 0.15112
+epoch: 024, step: 100, train_loss : 0.15250
+epoch: 024, step: 200, train_loss : 0.13889
+epoch: 024, step: 300, train_loss : 0.15610
+epoch: 024, step: 400, train_loss : 0.12038
+epoch: 024, Accuracy : 92.99
+--------------------------------------------------
+epoch: 025, step: 000, train_loss : 0.15900
+epoch: 025, step: 100, train_loss : 0.16588
+epoch: 025, step: 200, train_loss : 0.12729
+epoch: 025, step: 300, train_loss : 0.13606
+epoch: 025, step: 400, train_loss : 0.14699
+epoch: 025, Accuracy : 93.28
+--------------------------------------------------
+epoch: 026, step: 000, train_loss : 0.14067
+epoch: 026, step: 100, train_loss : 0.10855
+epoch: 026, step: 200, train_loss : 0.14808
+epoch: 026, step: 300, train_loss : 0.14412
+epoch: 026, step: 400, train_loss : 0.13446
+epoch: 026, Accuracy : 91.98
+--------------------------------------------------
+epoch: 027, step: 000, train_loss : 0.14792
+
+epoch: 027, step: 100, train_loss : 0.12963
+epoch: 027, step: 200, train_loss : 0.15646
+epoch: 027, step: 300, train_loss : 0.15303
+epoch: 027, step: 400, train_loss : 0.13632
+epoch: 027, Accuracy : 92.07
+--------------------------------------------------
+epoch: 028, step: 000, train_loss : 0.14414
+epoch: 028, step: 100, train_loss : 0.14495
+epoch: 028, step: 200, train_loss : 0.12879
+epoch: 028, step: 300, train_loss : 0.14713
+epoch: 028, step: 400, train_loss : 0.13252
+epoch: 028, Accuracy : 93.19
+--------------------------------------------------
+epoch: 029, step: 000, train_loss : 0.15933
+epoch: 029, step: 100, train_loss : 0.15297
+epoch: 029, step: 200, train_loss : 0.14560
+epoch: 029, step: 300, train_loss : 0.14326
+epoch: 029, step: 400, train_loss : 0.17361
+epoch: 029, Accuracy : 92.74
+--------------------------------------------------
+epoch: 030, step: 000, train_loss : 0.14389
+epoch: 030, step: 100, train_loss : 0.14839
+epoch: 030, step: 200, train_loss : 0.14707
+epoch: 030, step: 300, train_loss : 0.14365
+epoch: 030, step: 400, train_loss : 0.13761
+epoch: 030, Accuracy : 92.99
+--------------------------------------------------
+epoch: 031, step: 000, train_loss : 0.13783
+epoch: 031, step: 100, train_loss : 0.15402
+epoch: 031, step: 200, train_loss : 0.15542
+epoch: 031, step: 300, train_loss : 0.12357
+epoch: 031, step: 400, train_loss : 0.13661
+epoch: 031, Accuracy : 92.25
+--------------------------------------------------
+epoch: 032, step: 000, train_loss : 0.14958
+epoch: 032, step: 100, train_loss : 0.13127
+epoch: 032, step: 200, train_loss : 0.14938
+epoch: 032, step: 300, train_loss : 0.11711
+epoch: 032, step: 400, train_loss : 0.13798
+epoch: 032, Accuracy : 93.16
+--------------------------------------------------
+epoch: 033, step: 000, train_loss : 0.10971
+epoch: 033, step: 100, train_loss : 0.13212
+epoch: 033, step: 200, train_loss : 0.14599
+epoch: 033, step: 300, train_loss : 0.12665
+epoch: 033, step: 400, train_loss : 0.13051
+epoch: 033, Accuracy : 92.64
+--------------------------------------------------
+epoch: 034, step: 000, train_loss : 0.14840
+epoch: 034, step: 100, train_loss : 0.16731
+epoch: 034, step: 200, train_loss : 0.13768
+epoch: 034, step: 300, train_loss : 0.14083
+epoch: 034, step: 400, train_loss : 0.15352
+epoch: 034, Accuracy : 92.66
+--------------------------------------------------
+epoch: 035, step: 000, train_loss : 0.15981
+epoch: 035, step: 100, train_loss : 0.13266
+epoch: 035, step: 200, train_loss : 0.14638
+epoch: 035, step: 300, train_loss : 0.15108
+epoch: 035, step: 400, train_loss : 0.10525
+epoch: 035, Accuracy : 92.81
+--------------------------------------------------
+epoch: 036, step: 000, train_loss : 0.10386
+epoch: 036, step: 100, train_loss : 0.15336
+epoch: 036, step: 200, train_loss : 0.14922
+epoch: 036, step: 300, train_loss : 0.15795
+epoch: 036, step: 400, train_loss : 0.15000
+epoch: 036, Accuracy : 93.24
+--------------------------------------------------
+epoch: 037, step: 000, train_loss : 0.14344
+epoch: 037, step: 100, train_loss : 0.15389
+epoch: 037, step: 200, train_loss : 0.10968
+epoch: 037, step: 300, train_loss : 0.14049
+epoch: 037, step: 400, train_loss : 0.11837
+epoch: 037, Accuracy : 91.85
+--------------------------------------------------
+epoch: 038, step: 000, train_loss : 0.12944
+epoch: 038, step: 100, train_loss : 0.15629
+epoch: 038, step: 200, train_loss : 0.15879
+epoch: 038, step: 300, train_loss : 0.15380
+epoch: 038, step: 400, train_loss : 0.15207
+epoch: 038, Accuracy : 92.78
+--------------------------------------------------
+epoch: 039, step: 000, train_loss : 0.15594
+epoch: 039, step: 100, train_loss : 0.14943
+epoch: 039, step: 200, train_loss : 0.16130
+epoch: 039, step: 300, train_loss : 0.16618
+epoch: 039, step: 400, train_loss : 0.14497
+epoch: 039, Accuracy : 93.3
+--------------------------------------------------
+epoch: 040, step: 000, train_loss : 0.15841
+epoch: 040, step: 100, train_loss : 0.14370
+epoch: 040, step: 200, train_loss : 0.13229
+epoch: 040, step: 300, train_loss : 0.15417
+epoch: 040, step: 400, train_loss : 0.15445
+epoch: 040, Accuracy : 92.87
+--------------------------------------------------
+epoch: 041, step: 000, train_loss : 0.14282
+epoch: 041, step: 100, train_loss : 0.15279
+epoch: 041, step: 200, train_loss : 0.15227
+epoch: 041, step: 300, train_loss : 0.16588
+epoch: 041, step: 400, train_loss : 0.14985
+epoch: 041, Accuracy : 93.52
+--------------------------------------------------
+epoch: 042, step: 000, train_loss : 0.12335
+epoch: 042, step: 100, train_loss : 0.12161
+epoch: 042, step: 200, train_loss : 0.14651
+epoch: 042, step: 300, train_loss : 0.13434
+epoch: 042, step: 400, train_loss : 0.15232
+epoch: 042, Accuracy : 92.67
+--------------------------------------------------
+epoch: 043, step: 000, train_loss : 0.14871
+epoch: 043, step: 100, train_loss : 0.13968
+epoch: 043, step: 200, train_loss : 0.15260
+epoch: 043, step: 300, train_loss : 0.16436
+epoch: 043, step: 400, train_loss : 0.14132
+epoch: 043, Accuracy : 93.37
+--------------------------------------------------
+epoch: 044, step: 000, train_loss : 0.13771
+epoch: 044, step: 100, train_loss : 0.14110
+epoch: 044, step: 200, train_loss : 0.12403
+epoch: 044, step: 300, train_loss : 0.13835
+epoch: 044, step: 400, train_loss : 0.15280
+epoch: 044, Accuracy : 91.54
+--------------------------------------------------
+epoch: 045, step: 000, train_loss : 0.16709
+epoch: 045, step: 100, train_loss : 0.15091
+epoch: 045, step: 200, train_loss : 0.15108
+epoch: 045, step: 300, train_loss : 0.15008
+epoch: 045, step: 400, train_loss : 0.12180
+epoch: 045, Accuracy : 93.38
+--------------------------------------------------
+epoch: 046, step: 000, train_loss : 0.13447
+epoch: 046, step: 100, train_loss : 0.11592
+epoch: 046, step: 200, train_loss : 0.13153
+epoch: 046, step: 300, train_loss : 0.14317
+epoch: 046, step: 400, train_loss : 0.14265
+epoch: 046, Accuracy : 92.6
+--------------------------------------------------
+epoch: 047, step: 000, train_loss : 0.14107
+epoch: 047, step: 100, train_loss : 0.13677
+epoch: 047, step: 200, train_loss : 0.15817
+epoch: 047, step: 300, train_loss : 0.14700
+epoch: 047, step: 400, train_loss : 0.15268
+epoch: 047, Accuracy : 92.99
+--------------------------------------------------
+epoch: 048, step: 000, train_loss : 0.15056
+epoch: 048, step: 100, train_loss : 0.14324
+epoch: 048, step: 200, train_loss : 0.13932
+epoch: 048, step: 300, train_loss : 0.13044
+epoch: 048, step: 400, train_loss : 0.10587
+epoch: 048, Accuracy : 92.81
+--------------------------------------------------
+epoch: 049, step: 000, train_loss : 0.12103
+epoch: 049, step: 100, train_loss : 0.13541
+epoch: 049, step: 200, train_loss : 0.15653
+epoch: 049, step: 300, train_loss : 0.17028
+epoch: 049, step: 400, train_loss : 0.14313
+epoch: 049, Accuracy : 92.76
+--------------------------------------------------
+epoch: 050, step: 000, train_loss : 0.15254
+epoch: 050, step: 100, train_loss : 0.15612
+epoch: 050, step: 200, train_loss : 0.14480
+epoch: 050, step: 300, train_loss : 0.14517
+epoch: 050, step: 400, train_loss : 0.16245
+epoch: 050, Accuracy : 92.56
+=> Best Accuracy : 93.52 at epoch 41
+
+
+
+​
+
+
+
